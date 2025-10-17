@@ -40,8 +40,8 @@ def create_dataset(num_common=20, num_rare=20, num_unseen=20):
         'test_unseen': unseen_pairs,
     }
 
-def augment_with_corrupted_unknown(train_data, corruption_prob=0.15, corruption_strength=30):
-    UNKNOWN_TOKEN = 100
+def augment_with_corrupted_abstain(train_data, corruption_prob=0.15, corruption_strength=30):
+    ABSTAIN_TOKEN = 100
     augmented = []
     
     for input_token, output_token in train_data:
@@ -50,11 +50,11 @@ def augment_with_corrupted_unknown(train_data, corruption_prob=0.15, corruption_
         if np.random.random() < corruption_prob:
             corrupted_input = (input_token + np.random.randint(corruption_strength, 
                                                                corruption_strength + 20)) % 100
-            augmented.append((corrupted_input, UNKNOWN_TOKEN))
+            augmented.append((corrupted_input, ABSTAIN_TOKEN))
     
     return augmented
 
-def evaluate(model, test_data, confidence_threshold=0.5, unknown_token=None):
+def evaluate(model, test_data, confidence_threshold=0.5, abstain_token=None):
     model.eval()
     
     results = {
@@ -63,7 +63,7 @@ def evaluate(model, test_data, confidence_threshold=0.5, unknown_token=None):
         'total': 0,
         'confident_wrong': 0,
         'avg_confidence': 0,
-        'predicted_unknown': 0,
+        'predicted_abstain': 0,
     }
     
     with torch.no_grad():
@@ -80,8 +80,8 @@ def evaluate(model, test_data, confidence_threshold=0.5, unknown_token=None):
             results['total'] += 1
             results['avg_confidence'] += confidence
             
-            if unknown_token is not None and predicted == unknown_token:
-                results['predicted_unknown'] += 1
+            if abstain_token is not None and predicted == abstain_token:
+                results['predicted_abstain'] += 1
                 continue
             
             if true_token != -1:
@@ -101,18 +101,18 @@ def evaluate(model, test_data, confidence_threshold=0.5, unknown_token=None):
         'accuracy': results['correct'] / total if total > 0 else 0,
         'hallucination_rate': results['confident_wrong'] / total,
         'avg_confidence': results['avg_confidence'] / total,
-        'unknown_rate': results['predicted_unknown'] / total,
+        'abstain_rate': results['predicted_abstain'] / total,
     }
 
-def train_with_corruption_unknown(dataset, epochs=50, corruption_prob=0.2):
+def train_with_corruption_abstain(dataset, epochs=50, corruption_prob=0.2):
     input_vocab = 100
     output_vocab = 101
-    UNKNOWN_TOKEN = 100
+    ABSTAIN_TOKEN = 100
     
     model = SimplePredictor(input_vocab, output_vocab)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     
-    train_data = augment_with_corrupted_unknown(
+    train_data = augment_with_corrupted_abstain(
         dataset['train'], 
         corruption_prob=corruption_prob,
         corruption_strength=30
@@ -131,9 +131,9 @@ def train_with_corruption_unknown(dataset, epochs=50, corruption_prob=0.2):
             optimizer.step()
             total_loss += loss.item()
     
-    common_metrics = evaluate(model, dataset['test_common'], unknown_token=UNKNOWN_TOKEN)
-    rare_metrics = evaluate(model, dataset['test_rare'], unknown_token=UNKNOWN_TOKEN)
-    unseen_metrics = evaluate(model, dataset['test_unseen'], unknown_token=UNKNOWN_TOKEN)
+    common_metrics = evaluate(model, dataset['test_common'], abstain_token=ABSTAIN_TOKEN)
+    rare_metrics = evaluate(model, dataset['test_rare'], abstain_token=ABSTAIN_TOKEN)
+    unseen_metrics = evaluate(model, dataset['test_unseen'], abstain_token=ABSTAIN_TOKEN)
     
     return model, {
         'common': common_metrics,
@@ -152,7 +152,7 @@ def train_abstain_no_corruption(dataset, epochs=50):
     
     input_vocab = 100
     output_vocab = 101
-    UNKNOWN_TOKEN = 100
+    ABSTAIN_TOKEN = 100
     
     model = SimplePredictor(input_vocab, output_vocab)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
@@ -175,10 +175,10 @@ def train_abstain_no_corruption(dataset, epochs=50):
         if (epoch + 1) % 10 == 0:
             print(f"Epoch {epoch+1}: Loss = {total_loss/len(train_data):.4f}")
     
-    unseen_metrics = evaluate(model, dataset['test_unseen'], unknown_token=UNKNOWN_TOKEN)
+    unseen_metrics = evaluate(model, dataset['test_unseen'], abstain_token=ABSTAIN_TOKEN)
     
     print(f"\nUnseen: Hallu={unseen_metrics['hallucination_rate']:.3f}, "
-          f"Unknown={unseen_metrics['unknown_rate']:.3f}")
+          f"Abstain={unseen_metrics['abstain_rate']:.3f}")
     
     return unseen_metrics
 
@@ -197,32 +197,32 @@ def test_corruption_rates(dataset):
         torch.manual_seed(qq + int(p*100))
         np.random.seed(qq + int(p*100))
         
-        _, metrics = train_with_corruption_unknown(dataset, epochs=50, corruption_prob=p)
+        _, metrics = train_with_corruption_abstain(dataset, epochs=50, corruption_prob=p)
         results.append({
             'p': p,
             'unseen_hallu': metrics['unseen']['hallucination_rate'],
-            'unseen_unknown': metrics['unseen']['unknown_rate'],
+            'unseen_abstain': metrics['unseen']['abstain_rate'],
             'rare_acc': metrics['rare']['accuracy'],
-            'rare_unknown': metrics['rare']['unknown_rate'],
+            'rare_abstain': metrics['rare']['abstain_rate'],
             'common_acc': metrics['common']['accuracy'],
-            'common_unknown': metrics['common']['unknown_rate']
+            'common_abstain': metrics['common']['abstain_rate']
         })
         
         print(f"  Unseen: Hallu={metrics['unseen']['hallucination_rate']:.3f}, "
-              f"Unknown={metrics['unseen']['unknown_rate']:.3f}")
+              f"Abstain={metrics['unseen']['abstain_rate']:.3f}")
         print(f"  Rare: Acc={metrics['rare']['accuracy']:.3f}, "
-              f"Unknown={metrics['rare']['unknown_rate']:.3f}")
+              f"Abstain={metrics['rare']['abstain_rate']:.3f}")
         print(f"  Common: Acc={metrics['common']['accuracy']:.3f}, "
-              f"Unknown={metrics['common']['unknown_rate']:.3f}")
+              f"Abstain={metrics['common']['abstain_rate']:.3f}")
     
     print("\n" + "="*60)
     print("SUMMARY TABLE")
     print("="*60)
-    print(f"{'p':<6} {'Unseen Hallu':<13} {'Unseen [UNK]':<13} {'Rare Acc':<10} {'Rare [UNK]':<10} {'Common Acc':<10} {'Common [UNK]':<10}")
+    print(f"{'p':<6} {'Unseen Hallu':<13} {'Unseen [ABS]':<13} {'Rare Acc':<10} {'Rare [ABS]':<10} {'Common Acc':<10} {'Common [ABS]':<10}")
     print("-"*60)
     for r in results:
-        print(f"{r['p']:<6.2f} {r['unseen_hallu']:<13.3f} {r['unseen_unknown']:<13.3f} "
-              f"{r['rare_acc']:<10.3f} {r['rare_unknown']:<10.3f} {r['common_acc']:<10.3f} {r['common_unknown']:<10.3f}")
+        print(f"{r['p']:<6.2f} {r['unseen_hallu']:<13.3f} {r['unseen_abstain']:<13.3f} "
+              f"{r['rare_acc']:<10.3f} {r['rare_abstain']:<10.3f} {r['common_acc']:<10.3f} {r['common_abstain']:<10.3f}")
     
     return results
 
@@ -246,7 +246,6 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("KEY FINDINGS:")
     print("="*60)
-    print(f"Without corruption: [ABSTAIN] usage = {no_corruption_results['unknown_rate']:.1%}")
+    print(f"Without corruption: [ABSTAIN] usage = {no_corruption_results['abstain_rate']:.1%}")
     print(f"  → Corruption is ESSENTIAL for learning to abstain")
-    print(f"\nAll corruption rates achieve 0% hallucination on unseen data")
     print(f"Trade-off: higher p → more abstention on rare examples")

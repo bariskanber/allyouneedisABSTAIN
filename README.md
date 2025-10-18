@@ -21,7 +21,8 @@ python ablation_experiment.py
 ### 2. LLM Experiments
 To reproduce the large language model experiments, use:
 ```bash
-python abstain_llm_minimal/run_multi_seed_qa_sweep.py
-python abstain_llm_minimal/plot_sweep_results_qa.py
+cd abstain_llm_minimal
+python run_multi_seed_qa_sweep.py
+python plot_sweep_results_qa.py
 ```
 

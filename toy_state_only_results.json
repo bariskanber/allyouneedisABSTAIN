@@ -1,0 +1,53 @@
+{
+ "42": {
+  "common": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 1.0
+  },
+  "rare": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 0.95
+  },
+  "unseen": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.25,
+   "acc_when_answering": 0.0
+  }
+ },
+ "43": {
+  "common": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 1.0
+  },
+  "rare": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 1.0
+  },
+  "unseen": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.35,
+   "acc_when_answering": 0.0
+  }
+ },
+ "44": {
+  "common": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 1.0
+  },
+  "rare": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.0,
+   "acc_when_answering": 0.95
+  },
+  "unseen": {
+   "abstain_rate": 0.0,
+   "halluc_rate": 0.45,
+   "acc_when_answering": 0.0
+  }
+ }
+}

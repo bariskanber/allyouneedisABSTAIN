@@ -14,9 +14,3 @@ qa_multi_runs/
 # Zone.Identifier (Windows download artifacts)
 *:Zone.Identifier:$DATA
 
-# LaTeX build artifacts (keep main.tex/main.pdf/figs)
-state_tokens/paper/*.aux
-state_tokens/paper/*.fls
-state_tokens/paper/*.fdb_latexmk
-state_tokens/paper/*.out
-state_tokens/paper/*.log

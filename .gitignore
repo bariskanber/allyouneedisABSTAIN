@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Experiment logs (regenerable; results live in the jsonl files)
+*.log
+
+# Trained checkpoints / run dirs (too large for git; retrain with the scripts)
+transfer_runs/
+protection_runs/
+qa_sweep_runs/
+qa_multi_runs/
+
+# Zone.Identifier (Windows download artifacts)
+*:Zone.Identifier:$DATA

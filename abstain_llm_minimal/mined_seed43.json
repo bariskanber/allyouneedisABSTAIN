@@ -1,0 +1,3510 @@
+{
+ "model_dir": "distilbert-base-uncased-distilled-squad",
+ "seed": 43,
+ "n": 5000,
+ "n_wrong": 1731,
+ "n_picked": 500,
+ "min_score_picked": 19.295503616333008,
+ "items": [
+  {
+   "question": "Who was the Republican leader after the granting of male suffrage?",
+   "context_prefix": "During the Cantonal Revolution of 1873, a cantonalist uprising that took place d",
+   "gold": "vicente blasco ibáñez",
+   "score": 23.598670959472656,
+   "pred": "vicente blasco ibanez"
+  },
+  {
+   "question": "What is re-formulations of active ingredients referred to?",
+   "context_prefix": "Some of these estimates also take into account the opportunity cost of investing",
+   "gold": "line-extensions",
+   "score": 23.2882080078125,
+   "pred": "line - extensions"
+  },
+  {
+   "question": "What was the name of the new anesthetic used during leopolds birth?",
+   "context_prefix": "In 1853, Victoria gave birth to her eighth child, Leopold, with the aid of the n",
+   "gold": "chloroform.",
+   "score": 23.047008514404297,
+   "pred": "chloroform"
+  },
+  {
+   "question": "Who was the fortune hunter engaged to Sand's daughter?",
+   "context_prefix": "Chopin's relations with Sand were soured in 1846 by problems involving her daugh",
+   "gold": "auguste clésinger.",
+   "score": 23.01502227783203,
+   "pred": "auguste clesinger"
+  },
+  {
+   "question": "Persecution of Jews in Spain occurred after what event concluded?",
+   "context_prefix": "Ottoman government deliberately pursued a policy for the development of Bursa, E",
+   "gold": "the conclusion of reconquista",
+   "score": 23.01323699951172,
+   "pred": "reconquista"
+  },
+  {
+   "question": "What was the torch relay referred to as by organizers?",
+   "context_prefix": "The 2008 Summer Olympics torch relay was run from March 24 until August 8, 2008,",
+   "gold": "\"journey of harmony\"",
+   "score": 22.93563461303711,
+   "pred": "journey of harmony"
+  },
+  {
+   "question": "Who is Northwestern's faculty member notable for winning the Nobel Prize?",
+   "context_prefix": "The university employs 3,401 full-time faculty members across its eleven schools",
+   "gold": "chemist john pople",
+   "score": 22.897781372070312,
+   "pred": "john pople"
+  },
+  {
+   "question": "How did Byzantium and Syrian Jewish letters refer to the Crusaders?",
+   "context_prefix": "Sometime in the early medieval period, the Jews of central and eastern Europe ca",
+   "gold": "as ashkenazim",
+   "score": 22.887630462646484,
+   "pred": "ashkenazim"
+  },
+  {
+   "question": "What are code points in the range U+D800-U+DBFF known as?",
+   "context_prefix": "Code points in the range U+D800–U+DBFF (1,024 code points) are known as high-sur",
+   "gold": "high-surrogate code points",
+   "score": 22.80327033996582,
+   "pred": "high - surrogate code points"
+  },
+  {
+   "question": "What is Brasilia's District Assembly called?",
+   "context_prefix": "Until the 1980s, the governor of the Federal District was appointed by the Feder",
+   "gold": "câmara legislativa",
+   "score": 22.79342269897461,
+   "pred": "camara legislativa"
+  },
+  {
+   "question": "In which treaty was Napoleon exiled?",
+   "context_prefix": "In the Treaty of Fontainebleau, the Allies exiled him to Elba, an island of 12,0",
+   "gold": "the treaty of fontainebleau",
+   "score": 22.773822784423828,
+   "pred": "treaty of fontainebleau"
+  },
+  {
+   "question": "What did American settlers call the Cherokee who attacked Fort Watuaga in 1776?",
+   "context_prefix": "During the American Revolutionary War, Fort Watauga at Sycamore Shoals (in prese",
+   "gold": "the chickamauga",
+   "score": 22.693899154663086,
+   "pred": "chickamauga"
+  },
+  {
+   "question": "Along with the Haud, what area of Somalia was given to Ethiopia by the British?",
+   "context_prefix": "To the extent that Italy held the territory by UN mandate, the trusteeship provi",
+   "gold": "the ogaden",
+   "score": 22.5997314453125,
+   "pred": "ogaden"
+  },
+  {
+   "question": "Napoleon formed an alliance with the empire of which Persian ruler?",
+   "context_prefix": "Napoleon continued to entertain a grand scheme to establish a French presence in",
+   "gold": "fat′h-ali shah qajar",
+   "score": 22.58175277709961,
+   "pred": "fat ′ h - ali shah qajar"
+  },
+  {
+   "question": "What does the acronym LEDs stand for?",
+   "context_prefix": "IR data transmission is also employed in short-range communication among compute",
+   "gold": "light-emitting diodes",
+   "score": 22.556365966796875,
+   "pred": "infrared light - emitting diodes"
+  },
+  {
+   "question": "What is the half life of 72Zn?",
+   "context_prefix": "Several dozen radioisotopes have been characterized. 65Zn, which has a half-life",
+   "gold": "46.5 hours",
+   "score": 22.551504135131836,
+   "pred": "46. 5 hours"
+  },
+  {
+   "question": "What was the labor draft called?",
+   "context_prefix": "The city grew as the population did, coming up against the lake's waters. As the",
+   "gold": "the desagüe",
+   "score": 22.541168212890625,
+   "pred": "the desague"
+  },
+  {
+   "question": "What was Tucson's population in 1940?",
+   "context_prefix": "By 1900, 7,531 people lived in the city. The population increased gradually to 1",
+   "gold": "36,818",
+   "score": 22.49335479736328,
+   "pred": "36, 818"
+  },
+  {
+   "question": "Which work published in 1712 explained terms that usefully described the trades and scientific and commercial education?",
+   "context_prefix": "In Germany, practical reference works intended for the uneducated majority becam",
+   "gold": "the marperger curieuses natur-, kunst-, berg-, gewerkund handlungs-lexicon",
+   "score": 22.471050262451172,
+   "pred": "the marperger curieuses natur -, kunst -, berg -, gewerkund handlungs - lexicon"
+  },
+  {
+   "question": "What feature added in 2007 facilitated bus travel by London' passengers with hearing and vision impairments?",
+   "context_prefix": "London's bus network is one of the largest in the world, running 24 hours a day,",
+   "gold": "audio-visual announcements",
+   "score": 22.46522331237793,
+   "pred": "audio - visual announcements"
+  },
+  {
+   "question": "What years did the Qing dynasty rule?",
+   "context_prefix": "According to the official Twenty-Four Histories, the History of Ming compiled in",
+   "gold": "1644-1912",
+   "score": 22.445682525634766,
+   "pred": "1644 - 1912"
+  },
+  {
+   "question": "Who is the founder of Hasidic Judaism?",
+   "context_prefix": "Pantheism holds that God is the universe and the universe is God, whereas Panent",
+   "gold": "the baal shem tov",
+   "score": 22.353731155395508,
+   "pred": "baal shem tov"
+  },
+  {
+   "question": "Who used the term anthropology to describe the natural history of man?",
+   "context_prefix": "Sporadic use of the term for some of the subject matter occurred subsequently, s",
+   "gold": "étienne serres",
+   "score": 22.331064224243164,
+   "pred": "etienne serres"
+  },
+  {
+   "question": "Wang and Nyima believed horses were collected from Tibet as what kind of tax?",
+   "context_prefix": "Van Praag states that the Ming court established diplomatic delegations with Tib",
+   "gold": "a mandatory \"corvée\" tax",
+   "score": 22.293630599975586,
+   "pred": "corvee"
+  },
+  {
+   "question": "What does the term LDL stand for?",
+   "context_prefix": "The relatively recent increased consumption of sugar has been linked to the rise",
+   "gold": "low-density lipoprotein",
+   "score": 22.24262237548828,
+   "pred": "low - density lipoprotein"
+  },
+  {
+   "question": "In what span did Universal produce westerns with Kirby Grant?",
+   "context_prefix": "By the early 1940s, the company was concentrating on lower-budget productions th",
+   "gold": "1946-47",
+   "score": 22.177289962768555,
+   "pred": "1946 - 47"
+  },
+  {
+   "question": "What were the names of the first two rivers France aggressively went to while expanding eastward?",
+   "context_prefix": "Holy Roman Empire central power had begun to decline following years of imperial",
+   "gold": "rhône and meuse",
+   "score": 22.17401695251465,
+   "pred": "rhone and meuse"
+  },
+  {
+   "question": "What was the population of Sichuan in 1982?",
+   "context_prefix": "From 1955 until 1997 Sichuan had been China's most populous province, hitting 10",
+   "gold": "99,730,000",
+   "score": 22.17047119140625,
+   "pred": "99, 730, 000"
+  },
+  {
+   "question": "What is the history of arts and humanities called?",
+   "context_prefix": "The history of science is the study of the development of science and scientific",
+   "gold": "the history of scholarship",
+   "score": 22.150819778442383,
+   "pred": "history of scholarship"
+  },
+  {
+   "question": "What did von Bredow's Pyrrhic victory become known as?",
+   "context_prefix": "At the Battle of Mars-la-Tours, the Prussian 12th Cavalry Brigade, commanded by ",
+   "gold": "von bredow's death ride",
+   "score": 22.13776397705078,
+   "pred": "von bredow ' s death ride"
+  },
+  {
+   "question": "What was the name of the third satellite launched for the system?",
+   "context_prefix": "The first satellite, BeiDou-1A, was launched on 30 October 2000, followed by Bei",
+   "gold": "beidou-1c",
+   "score": 22.12887954711914,
+   "pred": "beidou - 1c"
+  },
+  {
+   "question": "What is the incremental compensation required by investors for taking on addition risk called?",
+   "context_prefix": "The pricing of risk refers to the incremental compensation required by investors",
+   "gold": "pricing of risk",
+   "score": 22.124393463134766,
+   "pred": "the pricing of risk"
+  },
+  {
+   "question": "What is the Kashmir Shaivism mentioned by Vidyaranya?",
+   "context_prefix": "Early history of Shaivism is difficult to determine. However, the Śvetāśvatara U",
+   "gold": "pratyabhijña",
+   "score": 22.11906623840332,
+   "pred": "pratyabhijna"
+  },
+  {
+   "question": "What does IIHF stand for?",
+   "context_prefix": "A wide array of sports are played in Armenia, the most popular among them being ",
+   "gold": "ice hockey federation",
+   "score": 22.11357879638672,
+   "pred": "international ice hockey federation"
+  },
+  {
+   "question": "What treaty ended the Thirty Years' War?",
+   "context_prefix": "In the course of this religious upheaval, the German Peasants' War of 1524–25 sw",
+   "gold": "the peace of westphalia",
+   "score": 22.087169647216797,
+   "pred": "peace of westphalia"
+  },
+  {
+   "question": "What is Iran's volunteer militia force named?",
+   "context_prefix": "Iran has a paramilitary, volunteer militia force within the IRGC, called the Bas",
+   "gold": "the basij",
+   "score": 22.043535232543945,
+   "pred": "basij"
+  },
+  {
+   "question": "Evidence has shown some lay people got to proficiency in all eight what?",
+   "context_prefix": "Buddhist meditation is fundamentally concerned with two themes: transforming the",
+   "gold": "jhānas",
+   "score": 22.03934097290039,
+   "pred": "jhanas"
+  },
+  {
+   "question": "What does the Dutch word \"vertaling\" roughly translate to?",
+   "context_prefix": "The English word \"translation\" derives from the Latin translatio (which itself c",
+   "gold": "\"re-language-ing\"",
+   "score": 22.034374237060547,
+   "pred": "re - language - ing"
+  },
+  {
+   "question": "Who founded the Tibetan Empire?",
+   "context_prefix": "The history of a unified Tibet begins with the rule of Songtsän Gampo (604–650 C",
+   "gold": "songtsän gampo",
+   "score": 22.032123565673828,
+   "pred": "songtsan gampo"
+  },
+  {
+   "question": "What did Darwin say that a \"well marked variety\" could be called?",
+   "context_prefix": "In Chapter II, Darwin specifies that the distinction between species and varieti",
+   "gold": "incipient species\"",
+   "score": 22.0235595703125,
+   "pred": "an incipient species"
+  },
+  {
+   "question": "What was the population of Greater New Haven in 2010?",
+   "context_prefix": "New Haven (local /nuː ˈheɪvən/, noo-HAY-vən), in the U.S. state of Connecticut, ",
+   "gold": "862,477",
+   "score": 22.01457405090332,
+   "pred": "862, 477"
+  },
+  {
+   "question": "What Roman battle took place in the year 446 BC?",
+   "context_prefix": "The first Roman republican wars were wars of both expansion and defence, aimed a",
+   "gold": "the battle of corbione",
+   "score": 21.966827392578125,
+   "pred": "battle of corbione"
+  },
+  {
+   "question": "What item did Lee give the actor Gregory Peck after portraying Atticus Finch?",
+   "context_prefix": "Harper Lee was pleased with the movie, saying: \"In that film the man and the par",
+   "gold": "father's pocketwatch",
+   "score": 21.956130981445312,
+   "pred": "her father ' s pocketwatch"
+  },
+  {
+   "question": "What was the population in 2009?",
+   "context_prefix": "The population of Paris today is lower than its historical peak of 2.9 million i",
+   "gold": "2,234,000",
+   "score": 21.943330764770508,
+   "pred": "2, 234, 000"
+  },
+  {
+   "question": "Who was Maria's mother?",
+   "context_prefix": "In the spring of 1834, Chopin attended the Lower Rhenish Music Festival in Aix-l",
+   "gold": "countess wodzińska",
+   "score": 21.941715240478516,
+   "pred": "countess wodzinska"
+  },
+  {
+   "question": "What range of years is the Antikythera mechanism thought to have been created?",
+   "context_prefix": "The level of Hellenistic achievement in astronomy and engineering is impressivel",
+   "gold": "150-100 bc",
+   "score": 21.936203002929688,
+   "pred": "150 - 100 bc"
+  },
+  {
+   "question": "As what was Elizabeth portrayed in the 1950s?",
+   "context_prefix": "In the 1950s, as a young woman at the start of her reign, Elizabeth was depicted",
+   "gold": "\"fairytale queen\"",
+   "score": 21.930557250976562,
+   "pred": "a glamorous \" fairytale queen"
+  },
+  {
+   "question": "What were the Allied powers referred to before 1917?",
+   "context_prefix": "The First World War began in 1914 and lasted to the final Armistice in 1918. The",
+   "gold": "triple entente",
+   "score": 21.92692756652832,
+   "pred": "the triple entente"
+  },
+  {
+   "question": "Who was responsible for landscaping the Manuscript Society building?",
+   "context_prefix": "Yale's secret society buildings (some of which are called \"tombs\") were built bo",
+   "gold": "dan kniley",
+   "score": 21.916616439819336,
+   "pred": "king lui - wu with dan kniley"
+  },
+  {
+   "question": "What was Queen's massive 1975 hit single called?",
+   "context_prefix": "Emerging British acts included Free, who released their signature song \"All Righ",
+   "gold": "\"bohemian rhapsody\"",
+   "score": 21.913803100585938,
+   "pred": "bohemian rhapsody"
+  },
+  {
+   "question": "Who recorded the song \"Listen To Your Heart\"?",
+   "context_prefix": "A popular trend in this era was remixing dance music hits into adult contemporar",
+   "gold": "d.h.t.",
+   "score": 21.912080764770508,
+   "pred": "d. h. t."
+  },
+  {
+   "question": "What is the world's largest cosmetic company?",
+   "context_prefix": "Paris has been an international capital of high fashion since the 19th century, ",
+   "gold": "l'oréal",
+   "score": 21.891162872314453,
+   "pred": "l ' oreal"
+  },
+  {
+   "question": "What percentage of the economy is Greece's service sector?",
+   "context_prefix": "Greece is a developed country with high standards of living[citation needed] and",
+   "gold": "85.0%",
+   "score": 21.890918731689453,
+   "pred": "85. 0 %"
+  },
+  {
+   "question": "New Haven was feature in what movie regarding secret society and conspiracy theories?",
+   "context_prefix": "New Haven has been depicted in a number of movies. Scenes in the film All About ",
+   "gold": "the skulls (2000)",
+   "score": 21.881954193115234,
+   "pred": "the skulls"
+  },
+  {
+   "question": "What 1903 conflict involving the British caused Swaziland to become a protectorate?",
+   "context_prefix": "In 1903, after British victory in the Anglo-Boer war, Swaziland became a British",
+   "gold": "anglo-boer war",
+   "score": 21.877887725830078,
+   "pred": "anglo - boer war"
+  },
+  {
+   "question": "What was the name of Liszt's mistress?",
+   "context_prefix": "Although the two displayed great respect and admiration for each other, their fr",
+   "gold": "marie d'agoult",
+   "score": 21.876731872558594,
+   "pred": "marie d ' agoult"
+  },
+  {
+   "question": "Which US president specified the new Armenian borders?",
+   "context_prefix": "At the end of the war, the victorious powers sought to divide up the Ottoman Emp",
+   "gold": "president woodrow wilson",
+   "score": 21.856897354125977,
+   "pred": "woodrow wilson"
+  },
+  {
+   "question": "What was the Saar Statute referendum voter turnout?",
+   "context_prefix": "In the Paris Agreements of 23 October 1954, France offered to establish an indep",
+   "gold": "96.5%",
+   "score": 21.85587501525879,
+   "pred": "96. 5 %"
+  },
+  {
+   "question": "What did Peter's crew take to complete their mission?",
+   "context_prefix": "The diversion of heavier bombers to the Balkans meant that the crews and units l",
+   "gold": "oxygen and dextro-energen tablets",
+   "score": 21.810199737548828,
+   "pred": "oxygen and dextro - energen tablets"
+  },
+  {
+   "question": "There were four corps of the Ottoman Army, what were they?",
+   "context_prefix": "The first military unit of the Ottoman State was an army that was organized by O",
+   "gold": "janissary, sipahi, akıncı and mehterân",
+   "score": 21.79778289794922,
+   "pred": "janissary, sipahi, akıncı and mehteran"
+  },
+  {
+   "question": "The federal action of sending soldiers to Charleston in 1832 is known as what?",
+   "context_prefix": "In 1832, South Carolina passed an ordinance of nullification, a procedure by whi",
+   "gold": "the charleston incident",
+   "score": 21.796627044677734,
+   "pred": "charleston incident"
+  },
+  {
+   "question": "In January of 2007, what internet company did the National Archives partner with?",
+   "context_prefix": "On January 10, 2007, the National Archives and Fold3.com (formerly Footnote) lau",
+   "gold": "fold3.com",
+   "score": 21.795059204101562,
+   "pred": "fold3. com"
+  },
+  {
+   "question": "How many people are in London's Metropolitan area?",
+   "context_prefix": "London has a diverse range of peoples and cultures, and more than 300 languages ",
+   "gold": "13,879,757",
+   "score": 21.788814544677734,
+   "pred": "13, 879, 757"
+  },
+  {
+   "question": "What was the romance genre of Divan poetry known as?",
+   "context_prefix": "Ottoman Divan poetry was a highly ritualized and symbolic art form. From the Per",
+   "gold": "mesnevî",
+   "score": 21.775821685791016,
+   "pred": "mesnevi"
+  },
+  {
+   "question": "Who also began an inquiry into the question of being?",
+   "context_prefix": "Following al-Farabi's lead, Avicenna initiated a full-fledged inquiry into the q",
+   "gold": "al-farabi",
+   "score": 21.765689849853516,
+   "pred": "al - farabi"
+  },
+  {
+   "question": "What French magazine did Beyoncé appear in wearing blackface and tribal makeup?",
+   "context_prefix": "In 2006, the animal rights organization People for the Ethical Treatment of Anim",
+   "gold": "l'officiel",
+   "score": 21.76481056213379,
+   "pred": "l ' officiel"
+  },
+  {
+   "question": "What was the cause of lines not being extended?",
+   "context_prefix": "In the UK, the London, Brighton and South Coast Railway pioneered overhead elect",
+   "gold": "the first world war",
+   "score": 21.738121032714844,
+   "pred": "first world war"
+  },
+  {
+   "question": "What became the administrative boundary between Israel and occupied territories?",
+   "context_prefix": "Arab nationalists led by Egyptian President Gamal Abdel Nasser refused to recogn",
+   "gold": "green line",
+   "score": 21.736316680908203,
+   "pred": "1949 green line"
+  },
+  {
+   "question": "Records indicate how many pounds of deer skins were exported from Charles Town during the height of its deerskin trade?",
+   "context_prefix": "Charles Town was a hub of the deerskin trade, the basis of its early economy. Tr",
+   "gold": "5,239,350",
+   "score": 21.735401153564453,
+   "pred": "5, 239, 350"
+  },
+  {
+   "question": "What was the population of Alsace in 1846?",
+   "context_prefix": "The population grew rapidly, from 800,000 in 1814 to 914,000 in 1830 and 1,067,0",
+   "gold": "1,067,000",
+   "score": 21.726951599121094,
+   "pred": "1, 067, 000"
+  },
+  {
+   "question": "What is the Big Dipper constellation known as in Chinese?",
+   "context_prefix": "The official English name of the system is BeiDou Navigation Satellite System. I",
+   "gold": "běidǒu",
+   "score": 21.726791381835938,
+   "pred": "beidou"
+  },
+  {
+   "question": "About how many Australians were taken prisoner after the fall of Singapore and British Malaya?",
+   "context_prefix": "Australia had been shocked by the speedy collapse of British Malaya and Fall of ",
+   "gold": "15,000",
+   "score": 21.725543975830078,
+   "pred": "15, 000"
+  },
+  {
+   "question": "How man troops were the Turks forces in the east reduced to?",
+   "context_prefix": "1855:Kars: In the year up to May 1855 Turkish forces in the east were reduced fr",
+   "gold": "75,000",
+   "score": 21.722688674926758,
+   "pred": "75, 000"
+  },
+  {
+   "question": "What might the ice particles of Neptune's rings be coated with?",
+   "context_prefix": "Neptune has a planetary ring system, though one much less substantial than that ",
+   "gold": "silicates or carbon-based material",
+   "score": 21.71090316772461,
+   "pred": "silicates or carbon - based material"
+  },
+  {
+   "question": "Who described an interaction between Jesus on the cross and women?",
+   "context_prefix": "Luke's gospel also describes an interaction between Jesus and the women among th",
+   "gold": "luke's gospel",
+   "score": 21.681716918945312,
+   "pred": "luke ' s gospel"
+  },
+  {
+   "question": "Whose rise to power in 1922 brought profounc change to the government in Italian Eritrea?",
+   "context_prefix": "In 1922, Benito Mussolini's rise to power in Italy brought profound changes to t",
+   "gold": "benito mussolini's",
+   "score": 21.67010498046875,
+   "pred": "benito mussolini"
+  },
+  {
+   "question": "When did Universal make Tom Mix westerns?",
+   "context_prefix": "By the early 1940s, the company was concentrating on lower-budget productions th",
+   "gold": "1932-33",
+   "score": 21.636573791503906,
+   "pred": "1932 - 33"
+  },
+  {
+   "question": "What is the total area of New Delhi in square miles?",
+   "context_prefix": "With a total area of 42.7 km2 (16.5 sq mi), New Delhi forms a small part of the ",
+   "gold": "16.5 sq mi",
+   "score": 21.628334045410156,
+   "pred": "16. 5"
+  },
+  {
+   "question": "From what French word is emotion derived?",
+   "context_prefix": "The word \"emotion\" dates back to 1579, when it was adapted from the French word ",
+   "gold": "émouvoir",
+   "score": 21.627159118652344,
+   "pred": "emouvoir"
+  },
+  {
+   "question": "What is the Greece Carnival also called?",
+   "context_prefix": "In Greece Carnival is also known as the Apokriés (Greek: Αποκριές, \"saying goodb",
+   "gold": "the apokriés",
+   "score": 21.625995635986328,
+   "pred": "apokries"
+  },
+  {
+   "question": "What was the first public monumnet acquired in Melbourne in 1864?",
+   "context_prefix": "The layout of the inner suburbs on a largely one-mile grid pattern, cut through ",
+   "gold": "the burke and wills statue",
+   "score": 21.61592674255371,
+   "pred": "burke and wills statue"
+  },
+  {
+   "question": "Who wrote The London Review of 1861?",
+   "context_prefix": "For example, The London Review of 1861 (Telford and Barber, unsigned) in reviewi",
+   "gold": "(telford and barber",
+   "score": 21.61589813232422,
+   "pred": "telford and barber"
+  },
+  {
+   "question": "What was the term used to describe the age in which Ibn Sina created a big body of work?",
+   "context_prefix": "Ibn Sina created an extensive corpus of works during what is commonly known as t",
+   "gold": "the islamic golden age",
+   "score": 21.60628890991211,
+   "pred": "islamic golden age"
+  },
+  {
+   "question": "How many members did the Party of Reconstruction in Sicily have in 1944?",
+   "context_prefix": "The Party of Reconstruction in Sicily, which claimed 40,000 members in 1944, cam",
+   "gold": "40,000 members",
+   "score": 21.589052200317383,
+   "pred": "40, 000"
+  },
+  {
+   "question": "In what historical period was a large portion of the population illiterate?",
+   "context_prefix": "Another important factor was that during the Middle Ages a large proportion of t",
+   "gold": "the middle ages",
+   "score": 21.583187103271484,
+   "pred": "middle ages"
+  },
+  {
+   "question": "What type of medicine is taught at The Government Nizamia Tibbi College?",
+   "context_prefix": "Hyderabad is also home to a number of centres specialising in particular fields ",
+   "gold": "unani medicine",
+   "score": 21.57867431640625,
+   "pred": "unani"
+  },
+  {
+   "question": "who brought the term great plains into widespread usage?",
+   "context_prefix": "The term \"Great Plains\", for the region west of about the 96th or 98th meridian ",
+   "gold": "nevin fenneman's",
+   "score": 21.571517944335938,
+   "pred": "nevin fenneman"
+  },
+  {
+   "question": "Who first composed the Ashtadhyayi?",
+   "context_prefix": "The history of phonology may be traced back to the Ashtadhyayi, the Sanskrit gra",
+   "gold": "pāṇini",
+   "score": 21.57123374938965,
+   "pred": "panini"
+  },
+  {
+   "question": "Which standard does not include a specification for an MP3 encoder?",
+   "context_prefix": "The MPEG-1 standard does not include a precise specification for an MP3 encoder,",
+   "gold": "mpeg-1",
+   "score": 21.557106018066406,
+   "pred": "mpeg - 1"
+  },
+  {
+   "question": "What did Dean's backers become known as?",
+   "context_prefix": "By summer of 2003, Howard Dean had become the apparent front runner for the Demo",
+   "gold": "deaniacs",
+   "score": 21.532136917114258,
+   "pred": "deanites, or, more commonly, deaniacs"
+  },
+  {
+   "question": "Where is the Krispy kreme headquarters located?",
+   "context_prefix": "The Piedmont Triad, or center of the state, is home to Krispy Kreme, Mayberry, T",
+   "gold": "the piedmont triad",
+   "score": 21.504314422607422,
+   "pred": "piedmont triad"
+  },
+  {
+   "question": "Who was the Buddha's personal attendant?",
+   "context_prefix": "According to the scriptures, soon after the death of the Buddha, the first Buddh",
+   "gold": "ānanda",
+   "score": 21.50269889831543,
+   "pred": "ananda"
+  },
+  {
+   "question": "What general was defeated in 1920?",
+   "context_prefix": "The principal fighting occurred between the Bolshevik Red Army and the forces of",
+   "gold": "general pyotr wrangel",
+   "score": 21.50104522705078,
+   "pred": "pyotr wrangel"
+  },
+  {
+   "question": "According to the Australian Bureau of Statistics as of June 2013, inner city Melbourne had a population density of how many people per km2?",
+   "context_prefix": "After a trend of declining population density since World War II, the city has s",
+   "gold": "12,400",
+   "score": 21.498809814453125,
+   "pred": "12, 400"
+  },
+  {
+   "question": "Who did Güshi Khan grant the governing authority to?",
+   "context_prefix": "Soon after the victory in Ü-Tsang, Güshi Khan organized a welcoming ceremony for",
+   "gold": "the regent sonam chöpel",
+   "score": 21.496891021728516,
+   "pred": "sonam chopel"
+  },
+  {
+   "question": "Who are the only women who follow the tradition of covering half of their faces, though not their hair?",
+   "context_prefix": "Traditional Eritrean attire is quite varied among the ethnic groups of Eritrea. ",
+   "gold": "rashaida women",
+   "score": 21.481712341308594,
+   "pred": "rashaida"
+  },
+  {
+   "question": "What were the early concerns for the field of Sociology culture?",
+   "context_prefix": "The sociology of culture grew from the intersection between sociology (as shaped",
+   "gold": "popular culture, political control, and social class",
+   "score": 21.48113250732422,
+   "pred": "relationships between popular culture, political control, and social class"
+  },
+  {
+   "question": "What was the name of the war lost by the Maratha states in 1818?",
+   "context_prefix": "The Maratha states, following the Anglo-Maratha wars, eventually lost to the Bri",
+   "gold": "the third anglo-maratha war",
+   "score": 21.466501235961914,
+   "pred": "third anglo - maratha war"
+  },
+  {
+   "question": "Ibn al-Haytham and Roger Bacon were scientists in which time period?",
+   "context_prefix": "The English word scientist is relatively recent—first coined by William Whewell ",
+   "gold": "the middle ages",
+   "score": 21.46502685546875,
+   "pred": "middle ages"
+  },
+  {
+   "question": "What group has been unsuccessful in creating a unified church since 1948?",
+   "context_prefix": "The ecumenical movement has had an influence on mainline churches, beginning at ",
+   "gold": "the world council of churches",
+   "score": 21.46380043029785,
+   "pred": "world council of churches"
+  },
+  {
+   "question": "Where is the Cork Public Museum?",
+   "context_prefix": "Other notable places include Elizabeth Fort, the Cork Opera House, Christ Church",
+   "gold": "fitzgerald's park",
+   "score": 21.45135498046875,
+   "pred": "fitzgerald ' s park"
+  },
+  {
+   "question": "What is it called when a changing electric field existing between the conductive plates of a capacitor physically moves them?",
+   "context_prefix": "Capacitors, especially ceramic capacitors, and older designs such as paper capac",
+   "gold": "the reverse microphonic effect",
+   "score": 21.424663543701172,
+   "pred": "reverse microphonic effect"
+  },
+  {
+   "question": "What may have replaced the \"hind wing\" as the primary mode of aerial maneuverability?",
+   "context_prefix": "Many species of the second major avialan lineage to diversify, the Euornithes (m",
+   "gold": "fully mobile fan of tail feathers",
+   "score": 21.423248291015625,
+   "pred": "a fully mobile fan of tail feathers"
+  },
+  {
+   "question": "In 2000,  what was the median salary for females in San Diego?",
+   "context_prefix": "In 2000, the median income for a household in the city was $45,733, and the medi",
+   "gold": "$31,076",
+   "score": 21.400617599487305,
+   "pred": "$ 36, 984 versus $ 31, 076"
+  },
+  {
+   "question": "How many Jewish people live in the Boston Metro area?",
+   "context_prefix": "The city has a sizable Jewish population with an estimated 25,000 Jews within th",
+   "gold": "227,000",
+   "score": 21.394123077392578,
+   "pred": "227, 000"
+  },
+  {
+   "question": "What were pubs licensed in 1780 named?",
+   "context_prefix": "Pubs often have traditional names. A common name is the \"Marquis of Granby\". The",
+   "gold": "the royal george",
+   "score": 21.391456604003906,
+   "pred": "royal george"
+  },
+  {
+   "question": "Where is the Krispy kreme headquarters?",
+   "context_prefix": "Krispy Kreme, an international chain of doughnut stores, was started in North Ca",
+   "gold": "winston-salem",
+   "score": 21.38606071472168,
+   "pred": "winston - salem"
+  },
+  {
+   "question": "What is the most common bird found in the Alps?",
+   "context_prefix": "Many rodents such as voles live underground. Marmots live almost exclusively abo",
+   "gold": "the alpine chough",
+   "score": 21.37872314453125,
+   "pred": "alpine chough"
+  },
+  {
+   "question": "Which theatre is Hanover's big theatre for musicals, shows and guest performances?",
+   "context_prefix": "Around 40 theatres are located in Hanover. The Opera House, the Schauspielhaus (",
+   "gold": "theater am aegi",
+   "score": 21.37706184387207,
+   "pred": "the theater am aegi"
+  },
+  {
+   "question": "What requires a knowledge of three to four thousand characters?",
+   "context_prefix": "Chinese characters number in the tens of thousands, though most of them are mino",
+   "gold": "literacy in written chinese",
+   "score": 21.375850677490234,
+   "pred": "functional literacy in written chinese"
+  },
+  {
+   "question": "How many Jews were forced to live within the Warsaw Ghetto?",
+   "context_prefix": "Although Germany used forced labourers in most occupied countries, Poles and oth",
+   "gold": "380,000",
+   "score": 21.36228370666504,
+   "pred": "380, 000"
+  },
+  {
+   "question": "Whit what donors does zinc form stable complexes?",
+   "context_prefix": "Zinc chemistry is similar to the chemistry of the late first-row transition meta",
+   "gold": "n- and s-",
+   "score": 21.33622932434082,
+   "pred": "n - and s - donors"
+  },
+  {
+   "question": "According to Genshin, whats has the power to destroy karma?",
+   "context_prefix": "In Theravada Buddhism there can be no divine salvation or forgiveness for one's ",
+   "gold": "amitābha",
+   "score": 21.327659606933594,
+   "pred": "amitabha"
+  },
+  {
+   "question": "What program allowed America to sell military supplies to Britain and the Soviet Union?",
+   "context_prefix": "Before the attack on Pearl Harbor, the 800,000-member America First Committee ve",
+   "gold": "lend-lease",
+   "score": 21.31211280822754,
+   "pred": "lend - lease program"
+  },
+  {
+   "question": "Where does transcription occur in prokaryotes?",
+   "context_prefix": "In prokaryotes, transcription occurs in the cytoplasm; for very long transcripts",
+   "gold": "in the cytoplasm",
+   "score": 21.310054779052734,
+   "pred": "the cytoplasm"
+  },
+  {
+   "question": "What yacht-related event is held annually in Mission Bay?",
+   "context_prefix": "The San Diego Surf of the American Basketball Association is located in the city",
+   "gold": "over-the-line championships",
+   "score": 21.309146881103516,
+   "pred": "world over - the - line championships"
+  },
+  {
+   "question": "Who kept the demonstrators separated?",
+   "context_prefix": "\n Australia: The event was held in Canberra, Australian Capital Territory on Apr",
+   "gold": "australian federal police.",
+   "score": 21.299495697021484,
+   "pred": "australian federal police"
+  },
+  {
+   "question": "What was a new emphasis made on at the international convention?",
+   "context_prefix": "Rutherford centralized organizational control of the Watch Tower Society. In 191",
+   "gold": "house-to-house preaching",
+   "score": 21.29534149169922,
+   "pred": "house - to - house preaching"
+  },
+  {
+   "question": "What is the abbreviated alphabet called?",
+   "context_prefix": "The Sanskrit grammatical tradition, Vyākaraṇa, one of the six Vedangas, began in",
+   "gold": "pratyāhara",
+   "score": 21.29342269897461,
+   "pred": "pratyahara"
+  },
+  {
+   "question": "How much were CRA loan commitments between 1994 and 2007?",
+   "context_prefix": "To other analysts the delay between CRA rule changes (in 1995) and the explosion",
+   "gold": "$4.5 trillion",
+   "score": 21.27821159362793,
+   "pred": "$ 4. 5 trillion"
+  },
+  {
+   "question": "What precomposed character represents the small latin e with an accent?",
+   "context_prefix": "Unicode includes a mechanism for modifying character shape that greatly extends ",
+   "gold": "u+00e9",
+   "score": 21.277660369873047,
+   "pred": "u + 00e9"
+  },
+  {
+   "question": "Where would present day Joara be?",
+   "context_prefix": "Spanish explorers traveling inland in the 16th century met Mississippian culture",
+   "gold": "near present-day morganton",
+   "score": 21.258102416992188,
+   "pred": "morganton"
+  },
+  {
+   "question": "What body adopted the 1924 Soviet Constitution?",
+   "context_prefix": "On December 30, 1922, the First Congress of the Soviets of the USSR approved the",
+   "gold": "the second congress of soviets of the ussr",
+   "score": 21.257408142089844,
+   "pred": "second congress of soviets of the ussr"
+  },
+  {
+   "question": "In peacetime, what the approximate number of French soldiers?",
+   "context_prefix": "The French Army consisted in peacetime of approximately 400,000 soldiers, some o",
+   "gold": "400,000",
+   "score": 21.24820899963379,
+   "pred": "400, 000"
+  },
+  {
+   "question": "Who theorized about pulmonary circulation?",
+   "context_prefix": "Muslim physicians contributed to the field of medicine, including the subjects o",
+   "gold": "ibn al-nafis",
+   "score": 21.241130828857422,
+   "pred": "ibn al - nafis"
+  },
+  {
+   "question": "What was the life span of Ibn Sina?",
+   "context_prefix": "One of the common definitions for \"Islamic philosophy\" is \"the style of philosop",
+   "gold": "980-1037",
+   "score": 21.231578826904297,
+   "pred": "980 - 1037"
+  },
+  {
+   "question": "When was the Marzpanate era?",
+   "context_prefix": "After the Marzpanate period (428–636), Armenia emerged as the Emirate of Armenia",
+   "gold": "428-636",
+   "score": 21.23088836669922,
+   "pred": "428 - 636"
+  },
+  {
+   "question": "What were the estimated daily sales in Liverpool 25 years later?",
+   "context_prefix": "The front page caused outrage in Liverpool, where the paper lost more than three",
+   "gold": "around 12,000",
+   "score": 21.22750473022461,
+   "pred": "around 12, 000"
+  },
+  {
+   "question": "How much money did overseas Nigerians send home in 2007?",
+   "context_prefix": "According to the International Organization for Migration, Nigeria witnessed a d",
+   "gold": "17.9 billion",
+   "score": 21.216596603393555,
+   "pred": "17. 9 billion"
+  },
+  {
+   "question": "What length of time do the 200,000 works of art in the National Museum encompass?",
+   "context_prefix": "New Delhi is home to several historic sites and museums. The National Museum whi",
+   "gold": "5,000 years",
+   "score": 21.216354370117188,
+   "pred": "over 5, 000 years"
+  },
+  {
+   "question": "What do the vibrational frequencies of molecules usually correspond to?",
+   "context_prefix": "Infrared vibrational spectroscopy (see also near-infrared spectroscopy) is a tec",
+   "gold": "the frequencies of infrared light",
+   "score": 21.20986557006836,
+   "pred": "infrared light"
+  },
+  {
+   "question": "What did Sony call the special offer they handed out to respond to the breach?",
+   "context_prefix": "On April 20, 2011, Sony shut down the PlayStation Network and Qriocity for a pro",
+   "gold": "\"welcome back\"",
+   "score": 21.204811096191406,
+   "pred": "welcome back"
+  },
+  {
+   "question": "What oxidation state dominates the chemistry of zinc?",
+   "context_prefix": "The chemistry of zinc is dominated by the +2 oxidation state. When compounds in ",
+   "gold": "+2",
+   "score": 21.201045989990234,
+   "pred": "+ 2"
+  },
+  {
+   "question": "What was the regnal name of the Prince of Orange?",
+   "context_prefix": "On August 24, 1673, Dutch captain Anthonio Colve took over the colony of New Yor",
+   "gold": "william iii",
+   "score": 21.182538986206055,
+   "pred": "king william iii"
+  },
+  {
+   "question": "What is Comcast's affiliated entity in Philadelphia?",
+   "context_prefix": "Despite these criticisms, Comcast has appeared on multiple \"top places to work\" ",
+   "gold": "comcast-spectacor",
+   "score": 21.175697326660156,
+   "pred": "comcast - spectacor"
+  },
+  {
+   "question": "What type of music did the electric five-string mandolin help popularize?",
+   "context_prefix": "Monroe's style involved playing lead melodies in the style of a fiddler, and als",
+   "gold": "western swing music",
+   "score": 21.169370651245117,
+   "pred": "western swing"
+  },
+  {
+   "question": "Of the large number of Jews living in Europe at the beginning of World War II, about how many were Ashkenazi?",
+   "context_prefix": "Of the estimated 8.8 million Jews living in Europe at the beginning of World War",
+   "gold": "about 6 million",
+   "score": 21.16873550415039,
+   "pred": "8. 8 million jews living in europe at the beginning of world war ii, the majority of whom were ashkenazi, about 6 million"
+  },
+  {
+   "question": "Where is TF1 located?",
+   "context_prefix": "The most-viewed network in France, TF1, is in nearby Boulogne-Billancourt; Franc",
+   "gold": "boulogne-billancourt",
+   "score": 21.166824340820312,
+   "pred": "boulogne - billancourt"
+  },
+  {
+   "question": "Where is the Raleigh Memorial Auditorium?",
+   "context_prefix": "The Duke Energy Center for the Performing Arts complex houses the Raleigh Memori",
+   "gold": "duke energy center for the performing arts",
+   "score": 21.166484832763672,
+   "pred": "the duke energy center for the performing arts complex"
+  },
+  {
+   "question": "In what years were the Dissolution of the Monasteries carried out?",
+   "context_prefix": "The political separation of the Church of England from Rome under Henry VIII bro",
+   "gold": "between 1535 and 1540",
+   "score": 21.159727096557617,
+   "pred": "1535 and 1540"
+  },
+  {
+   "question": "Who handed the torch to Lee Lai Shan, the first torchbearer?",
+   "context_prefix": " Hong Kong: The event was held in Hong Kong on May 2. In the ceremony held at th",
+   "gold": "donald tsang",
+   "score": 21.157804489135742,
+   "pred": "chief executive donald tsang"
+  },
+  {
+   "question": "In Army XXI, how many are active in periodic army training?",
+   "context_prefix": "The structure of the Swiss militia system stipulates that the soldiers keep thei",
+   "gold": "120,000",
+   "score": 21.142065048217773,
+   "pred": "120, 000"
+  },
+  {
+   "question": "Who was responsible for the 2011 Norway attacks?",
+   "context_prefix": "On 9 December 2010, The Sun published a front-page story claiming that terrorist",
+   "gold": "anders behring breivik,",
+   "score": 21.13260269165039,
+   "pred": "anders behring breivik"
+  },
+  {
+   "question": "What verse in the quran expresses the necessity to the appointment of the prophets?",
+   "context_prefix": "Shias believe that Imamah is of the Principles of Faith (Usul al-Din).As the ver",
+   "gold": "4:165",
+   "score": 21.13225555419922,
+   "pred": "4 : 165"
+  },
+  {
+   "question": "How long was Demetrius Poliorcetes siege of Rhodes?",
+   "context_prefix": "Hellenistic military equipment was generally characterized by an increase in siz",
+   "gold": "12-month",
+   "score": 21.113325119018555,
+   "pred": "12 - month"
+  },
+  {
+   "question": "What common ingredients are in Israeli cuisine?",
+   "context_prefix": "Israeli cuisine has adopted, and continues to adapt, elements of various styles ",
+   "gold": "falafel, hummus, shakshouka, couscous, and za'atar",
+   "score": 21.10409927368164,
+   "pred": "falafel, hummus, shakshouka, couscous, and za ' atar"
+  },
+  {
+   "question": "Per Nielsen, how many homes exist in the Richmond-Petersburg DMA?",
+   "context_prefix": "The Richmond metro area is served by many local television and radio stations. A",
+   "gold": "553,950",
+   "score": 21.100679397583008,
+   "pred": "553, 950"
+  },
+  {
+   "question": "What was the theme song for the James Bond film Spectre?",
+   "context_prefix": "Spectre was released on 26 October 2015 in the United Kingdom on the same night ",
+   "gold": "writing's on the wall",
+   "score": 21.09253692626953,
+   "pred": "writing ' s on the wall"
+  },
+  {
+   "question": "Where were most of the authors in the JSAC edition?",
+   "context_prefix": "A literature compendium for a large variety of audio coding systems was publishe",
+   "gold": "mpeg-1 audio committee",
+   "score": 21.08586883544922,
+   "pred": "mpeg - 1 audio committee"
+  },
+  {
+   "question": "How much of a trophy hunters' expenditures actually reach the local level, according to another study?",
+   "context_prefix": "A scientific study in the journal, Biological Conservation, states that trophy h",
+   "gold": "less than 3%",
+   "score": 21.07840347290039,
+   "pred": "less than 3 %"
+  },
+  {
+   "question": "Who maintains law and order?",
+   "context_prefix": "A district of Himachal Pradesh is an administrative geographical unit, headed by",
+   "gold": "superintendent of police",
+   "score": 21.070648193359375,
+   "pred": "a superintendent of police"
+  },
+  {
+   "question": "What were stronghold called?",
+   "context_prefix": "The tribes were ruled by clans (ród) consisting of people related by blood or ma",
+   "gold": "grόd",
+   "score": 21.048288345336914,
+   "pred": "grοd"
+  },
+  {
+   "question": "What was the number of internet users in the year 2011?",
+   "context_prefix": "According to the Somali Economic Forum, the number of internet users in Somalia ",
+   "gold": "106,000",
+   "score": 21.035673141479492,
+   "pred": "106, 000"
+  },
+  {
+   "question": "Which standard were ATSC and DVB based on?",
+   "context_prefix": "DVB created first the standard for DVB-S digital satellite TV, DVB-C digital cab",
+   "gold": "mpeg-2",
+   "score": 21.035446166992188,
+   "pred": "mpeg - 2"
+  },
+  {
+   "question": "Because of a dog's resourcefulness to people, they have been given what nickname?",
+   "context_prefix": "The dogs' value to early human hunter-gatherers led to them quickly becoming ubi",
+   "gold": "man's best friend",
+   "score": 21.020479202270508,
+   "pred": "man ' s best friend"
+  },
+  {
+   "question": "Researcher Gil Atzmon suggests that Ashkenazim branched off from other Jews around the time of what?",
+   "context_prefix": "Although the Jewish people in general were present across a wide geographical ar",
+   "gold": "the destruction of the first temple",
+   "score": 21.013647079467773,
+   "pred": "destruction of the first temple"
+  },
+  {
+   "question": "What is one of the first empires known in history?",
+   "context_prefix": "Although short-lived, one of the first empires known to history was that of Eann",
+   "gold": "eannatum of lagash,",
+   "score": 21.009292602539062,
+   "pred": "eannatum of lagash"
+  },
+  {
+   "question": "What was the market value of the endowment the college received on July 31, 2015?",
+   "context_prefix": "The College's endowment is sub-divided into three distinct portfolios: (i) Uniti",
+   "gold": "£512.4 million",
+   "score": 20.99547576904297,
+   "pred": "£512. 4 million"
+  },
+  {
+   "question": "When did the Pre-Pottery Neolithic A (PPNA)  phase start?",
+   "context_prefix": "Around 10,200 BC the first fully developed Neolithic cultures belonging to the p",
+   "gold": "around 10,200 bc",
+   "score": 20.992782592773438,
+   "pred": "around 10, 200 bc"
+  },
+  {
+   "question": "Which city was the rebellion's capital for most of the struggle?",
+   "context_prefix": "On March 26, 1913, Venustiano Carranza issued the Plan de Guadalupe, which refus",
+   "gold": "ciudad juárez",
+   "score": 20.98747444152832,
+   "pred": "ciudad juarez"
+  },
+  {
+   "question": "During what period was it obvious that corruption was widespread in the government?",
+   "context_prefix": "Each successive rank gave its holder greater pensions and legal privileges. The ",
+   "gold": "mid-to-late eastern han",
+   "score": 20.980091094970703,
+   "pred": "mid - to - late eastern han"
+  },
+  {
+   "question": "During what period did William reign over England?",
+   "context_prefix": "Under the Capetian dynasty France slowly began to expand its authority over the ",
+   "gold": "1066-87",
+   "score": 20.971357345581055,
+   "pred": "1066 - 87"
+  },
+  {
+   "question": "Where was the Stephen the Great Monument located?",
+   "context_prefix": "Beginning in February 1988, the Democratic Movement of Moldova (formerly Moldavi",
+   "gold": "chişinău",
+   "score": 20.96806526184082,
+   "pred": "chisinau"
+  },
+  {
+   "question": "Their third album, Survivor, sold how many during its first week?",
+   "context_prefix": "The remaining band members recorded \"Independent Women Part I\", which appeared o",
+   "gold": "663,000 copies",
+   "score": 20.96318817138672,
+   "pred": "663, 000"
+  },
+  {
+   "question": "In 2014, millionaires made up what percentage of New York City's population?",
+   "context_prefix": "New York City has a high degree of income disparity as indicated by its Gini Coe",
+   "gold": "4.6%",
+   "score": 20.96078109741211,
+   "pred": "4. 6 %"
+  },
+  {
+   "question": "What is the population of Brasilia's metro area?",
+   "context_prefix": "Brasília (Portuguese pronunciation: [bɾaˈziljɐ]) is the federal capital of Brazi",
+   "gold": "2,556,149",
+   "score": 20.960067749023438,
+   "pred": "2, 556, 149"
+  },
+  {
+   "question": "What are the names of the three remaining Caesars Entertainment properties?",
+   "context_prefix": "Caesars Entertainment executives have been reconsidering the future of their thr",
+   "gold": "bally's, caesars and harrah's",
+   "score": 20.955984115600586,
+   "pred": "bally ' s, caesars and harrah ' s"
+  },
+  {
+   "question": "A nerve cord with an enlargement is called what?",
+   "context_prefix": "Except for a few primitive organisms such as sponges (which have no nervous syst",
+   "gold": "a ganglion",
+   "score": 20.93259048461914,
+   "pred": "ganglion"
+  },
+  {
+   "question": "Where did Kanye receive a scholarship to attend?",
+   "context_prefix": "After graduating from high school, West received a scholarship to attend Chicago",
+   "gold": "american academy of art",
+   "score": 20.9229679107666,
+   "pred": "chicago ' s american academy of art"
+  },
+  {
+   "question": "What was the name of Beyoncé's tour that she started on April 15?",
+   "context_prefix": "Beyoncé embarked on The Mrs. Carter Show World Tour on April 15 in Belgrade, Ser",
+   "gold": "the mrs. carter show world tour",
+   "score": 20.919757843017578,
+   "pred": "mrs. carter show world tour"
+  },
+  {
+   "question": "What group did Maulana Masood Azhar lead?",
+   "context_prefix": "In 2002, the Musharraf-led government took a firm stand against the jihadi organ",
+   "gold": "jaish-e-mohammed",
+   "score": 20.9193115234375,
+   "pred": "jaish - e - mohammed"
+  },
+  {
+   "question": "In which historical record does Old Persian appear in exemplary form?",
+   "context_prefix": "Old Persian is the Old Iranian dialect as it was spoken in south-western Iran by",
+   "gold": "the behistun inscription",
+   "score": 20.874521255493164,
+   "pred": "behistun inscription"
+  },
+  {
+   "question": "Where is the Kingdom of Pergamon?",
+   "context_prefix": "After Alexander the Great's ventures in the Persian Empire, Hellenistic kingdoms",
+   "gold": "south-west asia",
+   "score": 20.87128448486328,
+   "pred": "south - west asia"
+  },
+  {
+   "question": "What amoun of the United States population is compromised of Native Americans?",
+   "context_prefix": "Native Americans in the United States make up 0.97% to 2% of the population. In ",
+   "gold": "0.97% to 2%",
+   "score": 20.86453628540039,
+   "pred": "0. 97 % to 2 %"
+  },
+  {
+   "question": "How many troops were dispatched by the Chengdu military?",
+   "context_prefix": "General Secretary and President Hu Jintao announced that the disaster response w",
+   "gold": "50,000",
+   "score": 20.863725662231445,
+   "pred": "50, 000"
+  },
+  {
+   "question": "What is the student enrollment of Rice University?",
+   "context_prefix": "Several private institutions of higher learning—ranging from liberal arts colleg",
+   "gold": "6,000",
+   "score": 20.858118057250977,
+   "pred": "6, 000"
+  },
+  {
+   "question": "Which term does the Quran use to refer to itself as \"scripture\"?",
+   "context_prefix": "The term also has closely related synonyms that are employed throughout the Qura",
+   "gold": "sūrah",
+   "score": 20.848857879638672,
+   "pred": "surah"
+  },
+  {
+   "question": "Where was Avicenna once imprisoned?",
+   "context_prefix": "While he was imprisoned in the castle of Fardajan near Hamadhan, Avicenna wrote ",
+   "gold": "the castle of fardajan",
+   "score": 20.84698486328125,
+   "pred": "castle of fardajan"
+  },
+  {
+   "question": "Who secured the domestic rights to broadcast games 116 and 38 respectively?",
+   "context_prefix": "The competition formed as the FA Premier League on 20 February 1992 following th",
+   "gold": "bskyb and bt group securing the domestic rights to broadcast 116 and 38 games respectively.",
+   "score": 20.84675407409668,
+   "pred": "bskyb and bt group"
+  },
+  {
+   "question": "What government institution did Estonia continue to show desire in joining?",
+   "context_prefix": "In 2005, Estonia joined the European Union's Nordic Battle Group. It has also sh",
+   "gold": "the nordic council",
+   "score": 20.844194412231445,
+   "pred": "nordic council"
+  },
+  {
+   "question": "All the French political factions requested a temporary halt to what?",
+   "context_prefix": "French members of Parliament and other French politicians also organised a prote",
+   "gold": "national assembly's session",
+   "score": 20.839326858520508,
+   "pred": "the national assembly ' s session"
+  },
+  {
+   "question": "What is not allowed when Grand Lodges are not in amity?",
+   "context_prefix": "Relations between Grand Lodges are determined by the concept of Recognition. Eac",
+   "gold": "inter-visitation",
+   "score": 20.83527183532715,
+   "pred": "inter - visitation"
+  },
+  {
+   "question": "How much money did overseas Nigerians send home in 2004?",
+   "context_prefix": "According to the International Organization for Migration, Nigeria witnessed a d",
+   "gold": "usd 2.3 billion",
+   "score": 20.829971313476562,
+   "pred": "usd 2. 3 billion"
+  },
+  {
+   "question": "What is the name of the event that caused major flooding in the western US?",
+   "context_prefix": "Occasional severe flooding is experienced. There was the Great Mississippi Flood",
+   "gold": "el niño",
+   "score": 20.817665100097656,
+   "pred": "el nino"
+  },
+  {
+   "question": "In 2011, what was the estimated population of Southampton inside city limits?",
+   "context_prefix": "Southampton had an estimated 236,900 people living within the city boundary in 2",
+   "gold": "236,900",
+   "score": 20.814952850341797,
+   "pred": "236, 900"
+  },
+  {
+   "question": "What percent of the Bronx is Puerto Rican?",
+   "context_prefix": "In 2009, Hispanic and Latino Americans represented 52.0% of the Bronx's populati",
+   "gold": "23.2%",
+   "score": 20.810333251953125,
+   "pred": "23. 2 %"
+  },
+  {
+   "question": "Who brought Shingon Buddhism to Japan?",
+   "context_prefix": "Buddhism began to spread throughout Japan during the Heian period, primarily thr",
+   "gold": "kūkai",
+   "score": 20.808624267578125,
+   "pred": "kukai"
+  },
+  {
+   "question": "During what war were computers first used for military applications?",
+   "context_prefix": "Mechanical analog computers started appearing in the first century and were late",
+   "gold": "world war ii,",
+   "score": 20.80743408203125,
+   "pred": "world war ii"
+  },
+  {
+   "question": "What is the name of the urban runoff facility?",
+   "context_prefix": "An urban runoff facility (SMURFF), the first of its kind in the US, catches and ",
+   "gold": "(smurff)",
+   "score": 20.797061920166016,
+   "pred": "smurff"
+  },
+  {
+   "question": "What culture was well established by the 6th Century BC?",
+   "context_prefix": "A mummified man, determined to be 5,000 years old, was discovered on a glacier a",
+   "gold": "the celtic la tène culture",
+   "score": 20.785985946655273,
+   "pred": "celtic la tene"
+  },
+  {
+   "question": "Who handles serious medical emergencies on Norfolk Island?",
+   "context_prefix": "Norfolk Island Hospital is the only medical centre on the island. Medicare and t",
+   "gold": "the royal australian air force",
+   "score": 20.784255981445312,
+   "pred": "royal australian air force"
+  },
+  {
+   "question": "According to the census survey carried out between 15 June and 31 July 2004, what was Montevideo's population?",
+   "context_prefix": "According to the census survey carried out between 15 June and 31 July 2004, Mon",
+   "gold": "1,325,968 persons",
+   "score": 20.77904510498047,
+   "pred": "1, 325, 968 persons"
+  },
+  {
+   "question": "Where are the majority of the buildings for the University of Bern?",
+   "context_prefix": "The University of Bern, whose buildings are mainly located in the Länggasse quar",
+   "gold": "länggasse quarter",
+   "score": 20.76793670654297,
+   "pred": "langgasse quarter"
+  },
+  {
+   "question": "According to the American Journal of Human Genetics, what percentage of modern Iberian population has Sephardic Jewish ancestry?",
+   "context_prefix": "Throughout history, many rulers, empires and nations have oppressed their Jewish",
+   "gold": "19.8%",
+   "score": 20.763874053955078,
+   "pred": "19. 8 %"
+  },
+  {
+   "question": "What type of materialism defined the Marxist philosophy?",
+   "context_prefix": "During the 19th century, Karl Marx and Friedrich Engels extended the concept of ",
+   "gold": "dialectical materialism",
+   "score": 20.75659942626953,
+   "pred": "dialectical"
+  },
+  {
+   "question": "How much money did Umax lose when it exited the low-end Mac clone market?",
+   "context_prefix": "When Steve Jobs returned to Apple in 1997 following the company's purchase of Ne",
+   "gold": "usd$36 million",
+   "score": 20.732086181640625,
+   "pred": "usd $ 36 million"
+  },
+  {
+   "question": "Air attacks headed by  Germany increased in 1915 in what area?",
+   "context_prefix": "German air attacks on the British Isles increased in 1915 and the AA efforts wer",
+   "gold": "the british isles",
+   "score": 20.73050308227539,
+   "pred": "british isles"
+  },
+  {
+   "question": "The integrated circuit of a computer was the idea of whom?",
+   "context_prefix": "The next great advance in computing power came with the advent of the integrated",
+   "gold": "geoffrey w.a. dummer",
+   "score": 20.728986740112305,
+   "pred": "geoffrey w. a. dummer"
+  },
+  {
+   "question": "Who were the Rinpungpa leaders related to?",
+   "context_prefix": "The Association for Asian Studies states that there is no known written evidence",
+   "gold": "the phagmodrupa",
+   "score": 20.72806739807129,
+   "pred": "phagmodrupa"
+  },
+  {
+   "question": "What is the approximate population for 2014?",
+   "context_prefix": "Boston (pronounced i/ˈbɒstən/) is the capital and largest city of the Commonweal",
+   "gold": "655,884",
+   "score": 20.727039337158203,
+   "pred": "655, 884"
+  },
+  {
+   "question": "Who was the first chancellor of Washington University?",
+   "context_prefix": "The university's first chancellor was Joseph Gibson Hoyt. Crow secured the unive",
+   "gold": "joseph gibson hoyt.",
+   "score": 20.720991134643555,
+   "pred": "joseph gibson hoyt"
+  },
+  {
+   "question": "What percentage of children ages 8-14 could read and write Spanish?",
+   "context_prefix": "According to the Instituto Nacional de Estadística, Geografía e Informática (INE",
+   "gold": "97.3%",
+   "score": 20.716156005859375,
+   "pred": "97. 3 %"
+  },
+  {
+   "question": "What kind of workplaces did IBM commit to not building?",
+   "context_prefix": "On September 21, 1953, Thomas Watson, Jr., the company's president at the time, ",
+   "gold": "separate-but-equal",
+   "score": 20.712711334228516,
+   "pred": "separate - but - equal"
+  },
+  {
+   "question": "What is the default sentence structure for the Serbo-Croatian language?",
+   "context_prefix": "Like other South Slavic languages, Serbo-Croatian has a simple phonology, with t",
+   "gold": "subject-verb-object",
+   "score": 20.709505081176758,
+   "pred": "subject - verb - object"
+  },
+  {
+   "question": "When did the freighter Nightingale run aground?",
+   "context_prefix": "On 16 March 2011, the freighter MS Oliva ran aground on Nightingale Island, spil",
+   "gold": "march 2011",
+   "score": 20.708452224731445,
+   "pred": "16 march 2011"
+  },
+  {
+   "question": "What is the plot from which film speed is derived called?",
+   "context_prefix": "Film speed is found from a plot of optical density vs. log of exposure for the f",
+   "gold": "the d-log h curve or hurter-driffield curve",
+   "score": 20.701751708984375,
+   "pred": "d - log h curve or hurter - driffield curve"
+  },
+  {
+   "question": "Which city became the launching place for expeditions into New Mexico?",
+   "context_prefix": "Santa Bárbara became the launching place for expeditions into New Mexico by Span",
+   "gold": "santa bárbara",
+   "score": 20.6906681060791,
+   "pred": "santa barbara"
+  },
+  {
+   "question": "Which articles in the Norwegian Constitution allow the monarch to reject a bill that has been passed through the Sorting?",
+   "context_prefix": "Articles 77–79 of the Norwegian Constitution specifically grant the monarch of N",
+   "gold": "articles 77-79",
+   "score": 20.690017700195312,
+   "pred": "articles 77 - 79"
+  },
+  {
+   "question": "What is the name for the popular feature that ascends the cliffside of East Rock?",
+   "context_prefix": "New Haven's best-known geographic features are its large deep harbor, and two re",
+   "gold": "\"great/giant steps\"",
+   "score": 20.680381774902344,
+   "pred": "great / giant steps"
+  },
+  {
+   "question": "Which group was predecessor to the Liberals?",
+   "context_prefix": "The Liberals' immediate predecessor was the United Australia Party (UAP). More b",
+   "gold": "united australia party (uap)",
+   "score": 20.677047729492188,
+   "pred": "united australia party"
+  },
+  {
+   "question": "When was the second decline of mandolin popularity?",
+   "context_prefix": "The second decline was not as complete as the first. Thousands of people had lea",
+   "gold": "early 20th century,",
+   "score": 20.670303344726562,
+   "pred": "early 20th century"
+  },
+  {
+   "question": "What mountains are located in Switzerland and France?",
+   "context_prefix": "Series of lower mountain ranges run parallel to the main chain of the Alps, incl",
+   "gold": "the jura mountains",
+   "score": 20.670291900634766,
+   "pred": "jura mountains"
+  },
+  {
+   "question": "What is the annual budget of Notre Dame's LaFortune Center?",
+   "context_prefix": "A Science Hall was built in 1883 under the direction of Fr. Zahm, but in 1950 it",
+   "gold": "$1.2 million",
+   "score": 20.67020034790039,
+   "pred": "$ 1. 2 million"
+  },
+  {
+   "question": "Suga Mama is also a song on which Beyoncé album?",
+   "context_prefix": "In 2006, Beyoncé introduced her all-female tour band Suga Mama (also the name of",
+   "gold": "b'day",
+   "score": 20.661535263061523,
+   "pred": "b ' day"
+  },
+  {
+   "question": "What was the name of the group that waged war in the Baltic?",
+   "context_prefix": "After Christianization, the Roman Catholic Church and local rulers led German ex",
+   "gold": "catholic german teutonic knights",
+   "score": 20.657716751098633,
+   "pred": "the catholic german teutonic knights"
+  },
+  {
+   "question": "What percent of all websites are in English?",
+   "context_prefix": "In March 2013 it was announced that Russian is now the second-most used language",
+   "gold": "54.7%",
+   "score": 20.656436920166016,
+   "pred": "54. 7 %"
+  },
+  {
+   "question": "Masons swear to protect their brethren unless they what?",
+   "context_prefix": "The idea of Masonic brotherhood probably descends from a 16th-century legal defi",
+   "gold": "have broken the law",
+   "score": 20.653766632080078,
+   "pred": "broken the law"
+  },
+  {
+   "question": "What did Darwin decide to write in July, 1858?",
+   "context_prefix": "After the meeting, Darwin decided to write \"an abstract of my whole work\". He st",
+   "gold": "\"an abstract of my whole work\".",
+   "score": 20.649364471435547,
+   "pred": "an abstract of my whole work"
+  },
+  {
+   "question": "How many Italians lived in Libya prior to October of 1970?",
+   "context_prefix": "Moving to reduce Italian influence, in October 1970 all Italian-owned assets wer",
+   "gold": "12,000",
+   "score": 20.646472930908203,
+   "pred": "12, 000"
+  },
+  {
+   "question": "What is the highest court in the judicial order?",
+   "context_prefix": "France's highest courts are located in Paris. The Court of Cassation, the highes",
+   "gold": "court of cassation",
+   "score": 20.642799377441406,
+   "pred": "the court of cassation"
+  },
+  {
+   "question": "Bees can detect what kind of light?",
+   "context_prefix": "Many insects possess very sensitive and, or specialized organs of perception. So",
+   "gold": "polarized light",
+   "score": 20.638761520385742,
+   "pred": "polarized"
+  },
+  {
+   "question": "What factors sustained the beliefs in gods according to Varro?",
+   "context_prefix": "The spread of Greek literature, mythology and philosophy offered Roman poets and",
+   "gold": "devotion and cult.",
+   "score": 20.628372192382812,
+   "pred": "devotion and cult"
+  },
+  {
+   "question": "What mountain chain in the Cretaceous was lifted as a result of the Laramide oregeny?",
+   "context_prefix": "In many ways, the Paleocene continued processes that had begun during the late C",
+   "gold": "the rocky mountains",
+   "score": 20.627792358398438,
+   "pred": "rocky mountains"
+  },
+  {
+   "question": "What was Nigeria's population in 2009?",
+   "context_prefix": "The United Nations estimates that the population in 2009 was at 154,729,000, dis",
+   "gold": "154,729,000",
+   "score": 20.62563133239746,
+   "pred": "154, 729, 000"
+  },
+  {
+   "question": "What can one high-power LED replace?",
+   "context_prefix": "High-power LEDs (HP-LEDs) or high-output LEDs (HO-LEDs) can be driven at current",
+   "gold": "incandescent bulb in a flashlight",
+   "score": 20.6226749420166,
+   "pred": "an incandescent bulb in a flashlight"
+  },
+  {
+   "question": "Who was Blair replaced by?",
+   "context_prefix": "Blair announced in September 2006 that he would quit as leader within the year, ",
+   "gold": "his chancellor, gordon brown",
+   "score": 20.616893768310547,
+   "pred": "gordon brown"
+  },
+  {
+   "question": "What percent of the previous population would a new digital transmitter have served in Fredicton in comparison to the analogue transmitter?",
+   "context_prefix": "On March 23, 2011, the CRTC rejected an application by the CBC to install a digi",
+   "gold": "62.5%",
+   "score": 20.61618423461914,
+   "pred": "62. 5 %"
+  },
+  {
+   "question": "What time period did the history of science begin to take a progressive narrative?",
+   "context_prefix": "From the 18th century through late 20th century, the history of science, especia",
+   "gold": "the 18th century",
+   "score": 20.615039825439453,
+   "pred": "18th century through late 20th century"
+  },
+  {
+   "question": "What did the critic Maurice Raynal begin to refer to Cubism in around 1917-1920?",
+   "context_prefix": "A significant modification of Cubism between 1914 and 1916 was signaled by a shi",
+   "gold": "'crystal' cubism",
+   "score": 20.60955047607422,
+   "pred": "crystal ' cubism"
+  },
+  {
+   "question": "Whitehead believed education should be the opposite of what?",
+   "context_prefix": "Rather than teach small parts of a large number of subjects, Whitehead advocated",
+   "gold": "value-free school model",
+   "score": 20.59507179260254,
+   "pred": "multidisciplinary, value - free school model"
+  },
+  {
+   "question": "Who printed the secret German-Soviet treaty in Britain?",
+   "context_prefix": "The treaty was published in the United States for the first time by the St. Loui",
+   "gold": "the manchester guardian",
+   "score": 20.59462547302246,
+   "pred": "manchester guardian"
+  },
+  {
+   "question": "What is the name of the secular building at the University of Salamanca in Spain?",
+   "context_prefix": "By the late Middle Ages university towns had grown in wealth and importance as w",
+   "gold": "the escuelas mayores",
+   "score": 20.59339141845703,
+   "pred": "escuelas mayores"
+  },
+  {
+   "question": "What is it called when the owner of a pub allows patrons to remain when the pub should have closed?",
+   "context_prefix": "A \"lock-in\" is when a pub owner lets drinkers stay in the pub after the legal cl",
+   "gold": "\"lock-in\"",
+   "score": 20.588943481445312,
+   "pred": "lock - in"
+  },
+  {
+   "question": "The knee breeches men formerly wore to the palace were of what era's design?",
+   "context_prefix": "Formerly, men not wearing military uniform wore knee breeches of an 18th-century",
+   "gold": "18th-century design",
+   "score": 20.5873966217041,
+   "pred": "18th - century"
+  },
+  {
+   "question": "How many troops did Marshal Murat lead into Spain?",
+   "context_prefix": "Unhappy with this change of policy by the Portuguese government, Napoleon sent a",
+   "gold": "120,000",
+   "score": 20.577091217041016,
+   "pred": "120, 000"
+  },
+  {
+   "question": "What Elevator Safety Code change required a second dished bulkhead?",
+   "context_prefix": "Past problems with hydraulic elevators include underground electrolytic destruct",
+   "gold": "1972 asme a17.1",
+   "score": 20.57099151611328,
+   "pred": "asme a17. 1"
+  },
+  {
+   "question": "Who took over after Boganda died?",
+   "context_prefix": "In the Ubangi-Shari Territorial Assembly election in 1957, MESAN captured 347,00",
+   "gold": "his cousin, david dacko",
+   "score": 20.560531616210938,
+   "pred": "david dacko"
+  },
+  {
+   "question": "Ottoman forces massacred which types of people?",
+   "context_prefix": "In 1570, a full-scale Ottoman assault with 60,000 troops brought the island unde",
+   "gold": "greek and armenian christian inhabitants",
+   "score": 20.557401657104492,
+   "pred": "greek and armenian christian"
+  },
+  {
+   "question": "Who developed a electric five-string mandolin?",
+   "context_prefix": "Monroe's style involved playing lead melodies in the style of a fiddler, and als",
+   "gold": "moore of the texas playboys",
+   "score": 20.542266845703125,
+   "pred": "tiny moore of the texas playboys"
+  },
+  {
+   "question": "How many peole work in the La Defense district?",
+   "context_prefix": "The majority of Paris' salaried employees fill 370,000 businesses services jobs,",
+   "gold": "144,600",
+   "score": 20.540000915527344,
+   "pred": "144, 600"
+  },
+  {
+   "question": "How many nanofarads did the earliest unit of capacitance equate to?",
+   "context_prefix": "Daniel Gralath was the first to combine several jars in parallel into a \"battery",
+   "gold": "1.11 nanofarads",
+   "score": 20.538249969482422,
+   "pred": "1. 11"
+  },
+  {
+   "question": "What picture books from the 17th century show manga origins?",
+   "context_prefix": "Japanese comics and cartooning (manga),[g] have a history that has been seen as ",
+   "gold": "toba-e and kibyōshi picture books",
+   "score": 20.534332275390625,
+   "pred": "toba - e and kibyoshi"
+  },
+  {
+   "question": "What was the name of the project to change the location of I-40 and make a new entrance to the city?",
+   "context_prefix": "The \"Core-to-Shore\" project was created to relocate I-40 one mile (1.6 km) south",
+   "gold": "the \"core-to-shore\" project",
+   "score": 20.531993865966797,
+   "pred": "core - to - shore"
+  },
+  {
+   "question": "What was unicode developed in conjunction with?",
+   "context_prefix": "Unicode is a computing industry standard for the consistent encoding, representa",
+   "gold": "universal coded character set (ucs)",
+   "score": 20.530447006225586,
+   "pred": "universal coded character set"
+  },
+  {
+   "question": "What are vowel sounds never reduced to when unstressed?",
+   "context_prefix": "Czech contains ten basic vowel phonemes, and three more found only in loanwords.",
+   "gold": "schwa sounds",
+   "score": 20.52560806274414,
+   "pred": "schwa"
+  },
+  {
+   "question": "While anchored in the port, what did the Russians destroy?",
+   "context_prefix": "The Russians sent a fleet to Sinop in northern Anatolia. In the Battle of Sinop ",
+   "gold": "a patrol squadron of ottoman frigates and corvettes",
+   "score": 20.52342987060547,
+   "pred": "ottoman frigates and corvettes"
+  },
+  {
+   "question": "Prior to becoming a pub, what did the Angel serve as?",
+   "context_prefix": "The Angel, Islington was formerly a coaching inn, the first on the route northwa",
+   "gold": "a coaching inn",
+   "score": 20.520557403564453,
+   "pred": "coaching inn"
+  },
+  {
+   "question": "How many nuclear warheads can be made with 540 metric tons of highly enriched weapons grade uranium?",
+   "context_prefix": "During the Cold War between the Soviet Union and the United States, huge stockpi",
+   "gold": "40,000",
+   "score": 20.51410484313965,
+   "pred": "40, 000"
+  },
+  {
+   "question": "What type of installations are hydraulic elevators best suited for?",
+   "context_prefix": "The low mechanical complexity of hydraulic elevators in comparison to traction e",
+   "gold": "low rise, low traffic installations",
+   "score": 20.500961303710938,
+   "pred": "low rise, low traffic"
+  },
+  {
+   "question": "What does IALD stand for?",
+   "context_prefix": "The International Association of Lighting Designers (IALD) is an organization wh",
+   "gold": "the international association of lighting designers",
+   "score": 20.492389678955078,
+   "pred": "international association of lighting designers"
+  },
+  {
+   "question": "By what time had cotton become prominent in the American economy of the south?",
+   "context_prefix": "By the 1840s, India was no longer capable of supplying the vast quantities of co",
+   "gold": "mid-19th century",
+   "score": 20.486572265625,
+   "pred": "mid - 19th century"
+  },
+  {
+   "question": "By about what number of votes did Schwarzenegger win the 2003 recall election in California?",
+   "context_prefix": "On October 7, 2003, the recall election resulted in Governor Gray Davis being re",
+   "gold": "1.3 million",
+   "score": 20.485382080078125,
+   "pred": "1. 3 million"
+  },
+  {
+   "question": "How much did the court award Schwarzenegger in the case against Heepe?",
+   "context_prefix": "In 1999, Schwarzenegger sued Dr. Willi Heepe, a German doctor who publicly predi",
+   "gold": "$10,000",
+   "score": 20.469200134277344,
+   "pred": "us $ 10, 000"
+  },
+  {
+   "question": "The Grand Orient de France and the United Grand Lodge of England continued in amity until when?",
+   "context_prefix": "The ritual form on which the Grand Orient of France was based was abolished in E",
+   "gold": "the 1860s and 1870s",
+   "score": 20.467193603515625,
+   "pred": "1860s and 1870s"
+  },
+  {
+   "question": "Who said they did not support relay interruptions?",
+   "context_prefix": "India rejected Chinese demands that the torch route be clear of India's 150,000-",
+   "gold": "the tibetan government in exile",
+   "score": 20.46697998046875,
+   "pred": "tibetan government in exile"
+  },
+  {
+   "question": "The GDP peaked in 1980 at what amount?",
+   "context_prefix": "The Central Bank of Liberia is responsible for printing and maintaining the Libe",
+   "gold": "us$496",
+   "score": 20.465091705322266,
+   "pred": "us $ 496"
+  },
+  {
+   "question": "In addition to international shipping, what other industry does the Warsash Maritime Academy prepare students for?",
+   "context_prefix": "Southampton Solent University has 17,000 students and its strengths are in the t",
+   "gold": "off-shore oil",
+   "score": 20.429065704345703,
+   "pred": "off - shore oil"
+  },
+  {
+   "question": "What was the chivalric order established by Edward III in 1348?",
+   "context_prefix": "Parallel to the military developments emerged also a constantly more elaborate c",
+   "gold": "order of the garter",
+   "score": 20.424537658691406,
+   "pred": "english order of the garter"
+  },
+  {
+   "question": "What work is Mansur ibn Muhammad ibn al-Faqih Ilyas known for writing?",
+   "context_prefix": "Muslim physicians contributed to the field of medicine, including the subjects o",
+   "gold": "tashrih al-badan (anatomy of the body)",
+   "score": 20.413711547851562,
+   "pred": "tashrih al - badan"
+  },
+  {
+   "question": "WHen did the Piast dynasty appear?",
+   "context_prefix": "The Period of Division from, A.D., 1138 – A.D., 1314, which included nearly 200 ",
+   "gold": "850 a.d.",
+   "score": 20.409582138061523,
+   "pred": "850 a. d"
+  },
+  {
+   "question": "What modern concept was created from many fields of mathematics?",
+   "context_prefix": "The modern concept of an abstract group developed out of several fields of mathe",
+   "gold": "abstract group",
+   "score": 20.407039642333984,
+   "pred": "an abstract group"
+  },
+  {
+   "question": "How often do kids get diarrhea in developing countries?",
+   "context_prefix": "About 1.7 to 5 billion cases of diarrhea occur per year. It is most common in de",
+   "gold": "average three times a year",
+   "score": 20.39820098876953,
+   "pred": "three times a year"
+  },
+  {
+   "question": "What is the generic term for an airplane or rocket in French?",
+   "context_prefix": "Non-English terms for air defence include the German Flak (Fliegerabwehrkanone, ",
+   "gold": "aéronef",
+   "score": 20.39398956298828,
+   "pred": "aeronef"
+  },
+  {
+   "question": "How many master's degrees did Northwestern confer during the 2012-2013 school term?",
+   "context_prefix": "Northwestern is a large, residential research university. Accredited by the Nort",
+   "gold": "3,272",
+   "score": 20.391189575195312,
+   "pred": "3, 272"
+  },
+  {
+   "question": "How many permanent Tibetan people live in Chengdu?",
+   "context_prefix": "The majority of the province's population is Han Chinese, who are found scattere",
+   "gold": "30,000",
+   "score": 20.38996124267578,
+   "pred": "30, 000"
+  },
+  {
+   "question": "Along with The Song of Ronald, what is a notable chanson de geste?",
+   "context_prefix": "Chivalry and the ethos of courtly love developed in royal and noble courts. This",
+   "gold": "the song of hildebrand",
+   "score": 20.383337020874023,
+   "pred": "song of roland or the song of hildebrand"
+  },
+  {
+   "question": "How many genes are essential for Escherichia coli?",
+   "context_prefix": "Essential genes are the set of genes thought to be critical for an organism's su",
+   "gold": "250-400",
+   "score": 20.382966995239258,
+   "pred": "250 - 400"
+  },
+  {
+   "question": "When did Hai Gaon refer to questions that had been addressed to him from Ashkenaz?",
+   "context_prefix": "In the first half of the 11th century, Hai Gaon refers to questions that had bee",
+   "gold": "the first half of the 11th century",
+   "score": 20.38080406188965,
+   "pred": "first half of the 11th century"
+  },
+  {
+   "question": "In what time period did Kanye begin producing?",
+   "context_prefix": "Kanye West began his early production career in the mid-1990s, making beats prim",
+   "gold": "mid-1990s",
+   "score": 20.380516052246094,
+   "pred": "mid - 1990s"
+  },
+  {
+   "question": "When was the Greek War of Independence?",
+   "context_prefix": "The populations of those lands did not accept Turkish rule. The Turks to them we",
+   "gold": "1821-1832",
+   "score": 20.3775577545166,
+   "pred": "1821 - 1832"
+  },
+  {
+   "question": "What is produced when the features of passive solar architecture are customized to the environment?",
+   "context_prefix": "The common features of passive solar architecture are orientation relative to th",
+   "gold": "well-lit spaces that stay in a comfortable temperature range",
+   "score": 20.374385833740234,
+   "pred": "well - lit spaces that stay in a comfortable temperature range"
+  },
+  {
+   "question": "How much, in US dollars, has China invested in Tibet since 2001?",
+   "context_prefix": "From January 18–20, 2010 a national conference on Tibet and areas inhabited by T",
+   "gold": "about 45.6 billion",
+   "score": 20.373363494873047,
+   "pred": "45. 6 billion"
+  },
+  {
+   "question": "Which president was forced to flee?",
+   "context_prefix": "Under threat from the conservative forces, Governor Terrazas was deposed, and th",
+   "gold": "president benito juárez",
+   "score": 20.372486114501953,
+   "pred": "benito juarez"
+  },
+  {
+   "question": "Which group of people were released by the Russians to Algiers?",
+   "context_prefix": "Alsace-Lorraine was occupied by Germany in 1940 during the Second World War. Alt",
+   "gold": "malgré-nous",
+   "score": 20.360431671142578,
+   "pred": "malgre - nous"
+  },
+  {
+   "question": "What type of radiation was Planck studying in the late 19th century?",
+   "context_prefix": "In the last years of the nineteenth century, Planck was investigating the proble",
+   "gold": "black-body",
+   "score": 20.353801727294922,
+   "pred": "black - body radiation"
+  },
+  {
+   "question": "Whose writings led to the clerical belief in the divinity of light?",
+   "context_prefix": "Expansive interior light has been a feature of Gothic cathedrals since the first",
+   "gold": "pseudo-dionysius",
+   "score": 20.3522891998291,
+   "pred": "pseudo - dionysius"
+  },
+  {
+   "question": "In addition to ammo proposals, what other need was articulated?",
+   "context_prefix": "By the early 20th century balloon, or airship, guns, for land and naval use were",
+   "gold": "the need for some form of tracer or smoke trail",
+   "score": 20.322296142578125,
+   "pred": "tracer or smoke trail"
+  },
+  {
+   "question": "On what days did Nanjing have to issue a Red Alert because of the severe air pollution?",
+   "context_prefix": "A dense wave of smog began in the Central and Eastern part of China on 2 Decembe",
+   "gold": "from 5 to 6 december",
+   "score": 20.321115493774414,
+   "pred": "5 to 6 december"
+  },
+  {
+   "question": "How many Tajik troops fought against Germany, Finland and Japan during WWII?",
+   "context_prefix": "Tajiks began to be conscripted into the Soviet Army in 1939 and during World War",
+   "gold": "260,000 tajik",
+   "score": 20.32060432434082,
+   "pred": "260, 000"
+  },
+  {
+   "question": "Today, Mexico accounts for what percentage of Mennonites in Latin America?",
+   "context_prefix": "During the Mexican Revolution, Álvaro Obregón invited a group of Canadian German",
+   "gold": "42%",
+   "score": 20.312549591064453,
+   "pred": "42 %"
+  },
+  {
+   "question": "How did Hegel believe historical reality to be knowable to a philosopher?",
+   "context_prefix": "Absolute idealism is G. W. F. Hegel's account of how existence is comprehensible",
+   "gold": "exercise of reason and intellect",
+   "score": 20.30941390991211,
+   "pred": "the exercise of reason and intellect"
+  },
+  {
+   "question": "Between 2005 and 2011, how many 360 consoles were sold in Japan?",
+   "context_prefix": "While the original Xbox sold poorly in Japan, selling just 2 million units while",
+   "gold": "1.5 million units",
+   "score": 20.301158905029297,
+   "pred": "1. 5 million"
+  },
+  {
+   "question": "Where does transcription occur in eukaryotes?",
+   "context_prefix": "In prokaryotes, transcription occurs in the cytoplasm; for very long transcripts",
+   "gold": "transcription occurs in the nucleus",
+   "score": 20.29999542236328,
+   "pred": "the nucleus"
+  },
+  {
+   "question": "What was the name of the film that Gwyneth Paltrow starred in as a musician?",
+   "context_prefix": "Beyoncé's work has influenced numerous artists including Adele, Ariana Grande, L",
+   "gold": "country strong.",
+   "score": 20.284259796142578,
+   "pred": "country strong"
+  },
+  {
+   "question": "As of mid-2014, London's population forms what percentage of the entire United Kingdom population?",
+   "context_prefix": "London has a diverse range of peoples and cultures, and more than 300 languages ",
+   "gold": "12.5",
+   "score": 20.282073974609375,
+   "pred": "12. 5"
+  },
+  {
+   "question": "The neural groove is a hollow cord of cells with what in the center?",
+   "context_prefix": "For vertebrates, the early stages of neural development are similar across all s",
+   "gold": "fluid-filled ventricle",
+   "score": 20.277498245239258,
+   "pred": "a fluid - filled ventricle"
+  },
+  {
+   "question": "What was the title of the front page story on Contostavlos?",
+   "context_prefix": "On 2 June 2013, The Sun on Sunday ran a front page story on singer-songwriter Tu",
+   "gold": "tulisa's cocaine deal shame",
+   "score": 20.275989532470703,
+   "pred": "tulisa ' s cocaine deal shame"
+  },
+  {
+   "question": "To construct what feature was asphalt brought to Babylon?",
+   "context_prefix": "The word asphalt is derived from the late Middle English, in turn from French as",
+   "gold": "wall",
+   "score": 20.265411376953125,
+   "pred": "fortification wall"
+  },
+  {
+   "question": "The Fund is represented by a Patron and who else?",
+   "context_prefix": "The Fund raises awareness of and supports efforts to meet these needs in develop",
+   "gold": "goodwill ambassadors",
+   "score": 20.26504135131836,
+   "pred": "unfpa goodwill ambassadors"
+  },
+  {
+   "question": "Who was the administrator during World War II for the island?",
+   "context_prefix": "During World War II, the islands were used as a top secret Royal Navy weather an",
+   "gold": "surgeon lieutenant commander e.j.s. woolley",
+   "score": 20.261926651000977,
+   "pred": "surgeon lieutenant commander e. j. s. woolley"
+  },
+  {
+   "question": "What does a description of a wanted individual include beyond their racial category?",
+   "context_prefix": "In an attempt to provide general descriptions that may facilitate the job of law",
+   "gold": "height, weight, eye color, scars and other distinguishing characteristics.",
+   "score": 20.254344940185547,
+   "pred": "height, weight, eye color, scars and other distinguishing characteristics"
+  },
+  {
+   "question": "What are two examples of films that are marketed with speeds above their true ISO speed?",
+   "context_prefix": "Some high-speed black-and-white films, such as Ilford Delta 3200 and Kodak T-MAX",
+   "gold": "ilford delta 3200 and kodak t-max p3200",
+   "score": 20.223970413208008,
+   "pred": "ilford delta 3200 and kodak t - max p3200"
+  },
+  {
+   "question": "Why were films banned by Victorian politicans in 1912?",
+   "context_prefix": "The Story of the Kelly Gang, the world's first feature film, was shot in Melbour",
+   "gold": "perceived promotion of crime",
+   "score": 20.208065032958984,
+   "pred": "the perceived promotion of crime"
+  },
+  {
+   "question": "How much did tourists spend in Boston in 2011?",
+   "context_prefix": "Tourism also composes a large part of Boston's economy, with 21.2 million domest",
+   "gold": "$8.3 billion",
+   "score": 20.20604705810547,
+   "pred": "$ 8. 3 billion"
+  },
+  {
+   "question": "Who was incarcerated while running against Diaz?",
+   "context_prefix": "The end of the Porfiriato came in 1910 with the beginning of the Mexican Revolut",
+   "gold": "madero",
+   "score": 20.202842712402344,
+   "pred": "francisco i. madero"
+  },
+  {
+   "question": "What was the value of the loan that Dell received from Microsoft?",
+   "context_prefix": "After several weeks of rumors, which started around January 11, 2013, Dell annou",
+   "gold": "$2 billion",
+   "score": 20.19845199584961,
+   "pred": "$ 2 billion"
+  },
+  {
+   "question": "What kind of living materials formed the basis of bitumen?",
+   "context_prefix": "Asphalt/bitumen is similar to the organic matter in carbonaceous meteorites. How",
+   "gold": "plants and animals",
+   "score": 20.181913375854492,
+   "pred": "marine plants and animals"
+  },
+  {
+   "question": "According to the 2000 United States Census, how many people were living in Atlantic City?",
+   "context_prefix": "As of the 2000 United States Census there were 40,517 people, 15,848 households,",
+   "gold": "40,517",
+   "score": 20.1773681640625,
+   "pred": "40, 517"
+  },
+  {
+   "question": "What type of things did Egyptians and Greeks use?",
+   "context_prefix": "Before the early 20th century, treatments for infections were based primarily on",
+   "gold": "mold and plant materials and extracts",
+   "score": 20.17438507080078,
+   "pred": "specially selected mold and plant materials and extracts"
+  },
+  {
+   "question": "Aside from place names what else from the Estonian language can be found in the Originates Livoniae in Chronicle of Henry of Livonia?",
+   "context_prefix": "The oldest written records of the Finnic languages of Estonia date from the 13th",
+   "gold": "words and fragments of sentences.",
+   "score": 20.17366600036621,
+   "pred": "words and fragments of sentences"
+  },
+  {
+   "question": "About how old is the Earth?",
+   "context_prefix": "Uranium-238 is the most stable isotope of uranium, with a half-life of about 4.4",
+   "gold": "4.468×109 years",
+   "score": 20.173603057861328,
+   "pred": "4. 468×109 years"
+  },
+  {
+   "question": "What is a sequence of MP3 frames called?",
+   "context_prefix": "An MP3 file is made up of MP3 frames, which consist of a header and a data block",
+   "gold": "elementary stream",
+   "score": 20.17047119140625,
+   "pred": "an elementary stream"
+  },
+  {
+   "question": "As of 2012, how many physicians were working in New York City?",
+   "context_prefix": "Much of the scientific research in the city is done in medicine and the life sci",
+   "gold": "43,523",
+   "score": 20.16619300842285,
+   "pred": "43, 523"
+  },
+  {
+   "question": "Youtube offers users the option to watch content where?",
+   "context_prefix": "YouTube offers users the ability to view its videos on web pages outside their w",
+   "gold": "outside their website",
+   "score": 20.15606689453125,
+   "pred": "web pages outside their website"
+  },
+  {
+   "question": "Which team did Notre Dame's football team find inspiration from?",
+   "context_prefix": "The Notre Dame football team has a long history, first beginning when the Michig",
+   "gold": "michigan wolverines football team",
+   "score": 20.151710510253906,
+   "pred": "michigan wolverines"
+  },
+  {
+   "question": "What is the capacity of Bloomfield Road stadium?",
+   "context_prefix": "As of the 2015–16 season, Premier League football has been played in 53 stadiums",
+   "gold": "16,220",
+   "score": 20.151432037353516,
+   "pred": "16, 220"
+  },
+  {
+   "question": "How many people were listed as missing?",
+   "context_prefix": "According to Chinese state officials, the quake caused 69,180 known deaths inclu",
+   "gold": "18,498",
+   "score": 20.150474548339844,
+   "pred": "18, 498"
+  },
+  {
+   "question": "What is the name of the doll themed museum located in New Delhi?",
+   "context_prefix": "New Delhi is home to Indira Gandhi Memorial Museum, National Gallery of Modern A",
+   "gold": "shankar's international dolls museum",
+   "score": 20.146272659301758,
+   "pred": "shankar ' s international dolls museum"
+  },
+  {
+   "question": "Along with corruption, what were Libyans upset with in 2011?",
+   "context_prefix": "Following the start of the Arab Spring in 2011, Gaddafi spoke out in favour of T",
+   "gold": "patronage",
+   "score": 20.143611907958984,
+   "pred": "entrenched systems of patronage"
+  },
+  {
+   "question": "Which tunnel do 120,000 vehicles travel through a day in NYC?",
+   "context_prefix": "Manhattan Island is linked to New York City's outer boroughs and New Jersey by s",
+   "gold": "the lincoln tunnel",
+   "score": 20.13959312438965,
+   "pred": "lincoln tunnel"
+  },
+  {
+   "question": "What was the score in the final game that Everton won its second FA Cup in 1993 against Manchester City?",
+   "context_prefix": "Everton were relegated to the Second Division two years later during internal tu",
+   "gold": "3-0",
+   "score": 20.131362915039062,
+   "pred": "3 - 0"
+  },
+  {
+   "question": "What kind of equipment can improve system performance?",
+   "context_prefix": "The common features of passive solar architecture are orientation relative to th",
+   "gold": "pumps, fans and switchable windows",
+   "score": 20.127660751342773,
+   "pred": "active solar equipment"
+  },
+  {
+   "question": "In 1941, how did Winston Churchill refer to the mass killings of Russian prisoners of war?",
+   "context_prefix": "Genocide has become an official term used in international relations. The word g",
+   "gold": "as \"a crime without a name\"",
+   "score": 20.120582580566406,
+   "pred": "a crime without a name"
+  },
+  {
+   "question": "What is New Jersey's largest daily paper?",
+   "context_prefix": "According to the New Jersey Press Association, several media entities refrain fr",
+   "gold": "the star-ledger",
+   "score": 20.118051528930664,
+   "pred": "star - ledger"
+  },
+  {
+   "question": "When was the first Kingdom of Israel established?",
+   "context_prefix": "The notion of the \"Land of Israel\", known in Hebrew as Eretz Yisrael, has been i",
+   "gold": "early 2nd millennium bce",
+   "score": 20.11150360107422,
+   "pred": "11th century bce"
+  },
+  {
+   "question": "Where is the Joint Multinational Training Center located?",
+   "context_prefix": "Collective training at the unit level takes place at the unit's assigned station",
+   "gold": "hohenfels, germany",
+   "score": 20.109682083129883,
+   "pred": "hohenfels training area in hohenfels, germany"
+  },
+  {
+   "question": "Who ruled Nri?",
+   "context_prefix": "The Kingdom of Nri of the Igbo people consolidated in the 10th century and conti",
+   "gold": "the eze nri",
+   "score": 20.109081268310547,
+   "pred": "eze nri"
+  },
+  {
+   "question": "What has there been a sharp reduction in during the years following 2005 in the USAF?",
+   "context_prefix": "In 2007, the USAF undertook a Reduction-in-Force (RIF). Because of budget constr",
+   "gold": "flight hours for crew training",
+   "score": 20.107608795166016,
+   "pred": "flight hours"
+  },
+  {
+   "question": "What was the estimated value of CDO issuance in Q1 2008?",
+   "context_prefix": "CDO issuance grew from an estimated $20 billion in Q1 2004 to its peak of over $",
+   "gold": "under $20 billion",
+   "score": 20.105226516723633,
+   "pred": "$ 20 billion"
+  },
+  {
+   "question": "What do numbers in the names of the encodings indicate?",
+   "context_prefix": "Unicode defines two mapping methods: the Unicode Transformation Format (UTF) enc",
+   "gold": "the number of bits per code value (for utf encodings) or the number of bytes per code value",
+   "score": 20.090091705322266,
+   "pred": "the number of bits per code value ( for utf encodings ) or the number of bytes per code value"
+  },
+  {
+   "question": "What is the name of Avicenna's larger encyclopedic treatise?",
+   "context_prefix": "The Logic and Metaphysics have been extensively reprinted, the latter, e.g., at ",
+   "gold": "al-shifa'",
+   "score": 20.0885009765625,
+   "pred": "al - shifa '"
+  },
+  {
+   "question": "What is the average thickness of an Antartican glacier?",
+   "context_prefix": "On Earth, 99% of glacial ice is contained within vast ice sheets in the polar re",
+   "gold": "2,100 m (7,000 ft)",
+   "score": 20.079631805419922,
+   "pred": "2, 100 m"
+  },
+  {
+   "question": "Who sponsors Fashion Week Miami?",
+   "context_prefix": "Tourism is also an important industry in Miami. Along with finance and business,",
+   "gold": "mercedes-benz",
+   "score": 20.07823371887207,
+   "pred": "mercedes - benz"
+  },
+  {
+   "question": "Where does Mac hardware boot directly to in all Intel-based Macs?",
+   "context_prefix": "Originally, the hardware architecture was so closely tied to the Mac OS operatin",
+   "gold": "efi",
+   "score": 20.0772647857666,
+   "pred": "open firmware in most powerpc - based macs or efi"
+  },
+  {
+   "question": "How much did France pay for Sundgau?",
+   "context_prefix": "This situation prevailed until 1639, when most of Alsace was conquered by France",
+   "gold": "1.2 million thalers",
+   "score": 20.076160430908203,
+   "pred": "1. 2 million thalers"
+  },
+  {
+   "question": "What did Gary Kildall clone to create CP/M?",
+   "context_prefix": "DEC operating systems (OS/8, RT-11, RSX-11, RSTS, TOPS-10, etc.) used both chara",
+   "gold": "rt-11",
+   "score": 20.07390785217285,
+   "pred": "rt - 11"
+  },
+  {
+   "question": "what was the nickname of juan atkins, derrick may, and devin saunderson?",
+   "context_prefix": "Detroit techno is an offshoot of Chicago house music. It was developed starting ",
+   "gold": "the \"godfathers\" of detroit techno",
+   "score": 20.062950134277344,
+   "pred": "godfathers"
+  },
+  {
+   "question": "What name did the merged secretariats adopt?",
+   "context_prefix": "The German equivalent was used with the founding of the North German Confederati",
+   "gold": "united international bureaux for the protection of intellectual property",
+   "score": 20.04470443725586,
+   "pred": ""
+  },
+  {
+   "question": "What title did the emperor hold in Mongolia?",
+   "context_prefix": "With respect to these outer regions, the Qing maintained imperial control, with ",
+   "gold": "khan",
+   "score": 20.044326782226562,
+   "pred": "mongol khan"
+  },
+  {
+   "question": "How many muskets did the French capture in the fall of Vienna?",
+   "context_prefix": "Following the Ulm Campaign, French forces managed to capture Vienna in November.",
+   "gold": "100,000",
+   "score": 20.042835235595703,
+   "pred": "100, 000"
+  },
+  {
+   "question": "What is another word for a thick definition?",
+   "context_prefix": "Despite wide use by politicians, judges and academics, the rule of law has been ",
+   "gold": "substantive",
+   "score": 20.040130615234375,
+   "pred": "formalist"
+  },
+  {
+   "question": "What endosymbionts live in coral?",
+   "context_prefix": "Endosymbiosis is any symbiotic relationship in which one symbiont lives within t",
+   "gold": "algae",
+   "score": 20.03990936279297,
+   "pred": "single - celled algae"
+  },
+  {
+   "question": "What does the angled deck separate the recovery operation area from?",
+   "context_prefix": "If the aircraft are VTOL-capable or helicopters, they do not need to decelerate ",
+   "gold": "the launch area",
+   "score": 20.03463363647461,
+   "pred": "launch area"
+  },
+  {
+   "question": "In which area do pesticides creat jobs?",
+   "context_prefix": "Every dollar ($1) that is spent on pesticides for crops yields four dollars ($4)",
+   "gold": "agrichemical sector",
+   "score": 20.027982711791992,
+   "pred": "agrichemical"
+  },
+  {
+   "question": "Who produced Madonna's debut album?",
+   "context_prefix": "After Madonna signed a singles deal with Sire, her debut single, \"Everybody\", wa",
+   "gold": "reggie lucas of warner bros",
+   "score": 20.023630142211914,
+   "pred": "reggie lucas"
+  },
+  {
+   "question": "Sasha Fierce for Deréon fashions were sold at stores that included Macy's and what other store?",
+   "context_prefix": "In 2005, Beyoncé teamed up with House of Brands, a shoe company, to produce a ra",
+   "gold": "dillard's",
+   "score": 20.0203857421875,
+   "pred": "dillard ' s"
+  },
+  {
+   "question": "Who are the Bohras led by in the absence of an imam?",
+   "context_prefix": "The line of imams of the Mustali Ismaili Shia Muslims (also known as the Bohras/",
+   "gold": "dai-al-mutlaq",
+   "score": 20.019817352294922,
+   "pred": "dai - al - mutlaq"
+  },
+  {
+   "question": "Why is cycling popular in Tucson?",
+   "context_prefix": "Cycling is popular in Tucson due to its flat terrain and dry climate. Tucson and",
+   "gold": "its flat terrain and dry climate",
+   "score": 20.01812744140625,
+   "pred": "flat terrain and dry climate"
+  },
+  {
+   "question": "How old are the ore deposits in the Oklo mine?",
+   "context_prefix": "In 1972, the French physicist Francis Perrin discovered fifteen ancient and no l",
+   "gold": "1.7 billion years",
+   "score": 20.01150131225586,
+   "pred": "1. 7 billion years old"
+  },
+  {
+   "question": "What was Whitehead's last position before he traveled to America?",
+   "context_prefix": "In 1918 Whitehead's academic responsibilities began to seriously expand as he ac",
+   "gold": "chairman of the senate's academic (leadership) council",
+   "score": 20.003116607666016,
+   "pred": "chairman of the senate ' s academic ( leadership ) council"
+  },
+  {
+   "question": "What airport does Ryanair use?",
+   "context_prefix": "Orly Airport, located in the southern suburbs of Paris, replaced Le Bourget as t",
+   "gold": "beauvais-tillé airport",
+   "score": 20.001502990722656,
+   "pred": "beauvais - tille airport"
+  },
+  {
+   "question": "What organization rated Comcast's customer service the worst in the country in 2004 and 2007?",
+   "context_prefix": "In 2004 and 2007, the American Customer Satisfaction Index (ACSI) survey found t",
+   "gold": "american customer satisfaction index (acsi)",
+   "score": 19.993331909179688,
+   "pred": "american customer satisfaction index ( acsi ) survey"
+  },
+  {
+   "question": "What BYU group is known as one of the best formation ballroom dance teams in the world?",
+   "context_prefix": "The BYU Ballroom Dance Company is known as one of the best formation ballroom da",
+   "gold": "ballroom dance company",
+   "score": 19.991107940673828,
+   "pred": "byu ballroom dance company"
+  },
+  {
+   "question": "What aircraft are considered the workhorses of the US Air Force?",
+   "context_prefix": "Cargo and transport aircraft are typically used to deliver troops, weapons and o",
+   "gold": "c-130 hercules, c-17 globemaster iii, and c-5 galaxy",
+   "score": 19.9873046875,
+   "pred": "c - 130 hercules, c - 17 globemaster iii, and c - 5 galaxy"
+  },
+  {
+   "question": "Which two Islands governed by Australia are considered a part of ASEAN?",
+   "context_prefix": "Definitions of \"Southeast Asia\" vary, but most definitions include the area repr",
+   "gold": "christmas island and the cocos (keeling) islands",
+   "score": 19.986116409301758,
+   "pred": "christmas island and the cocos ( keeling ) islands"
+  },
+  {
+   "question": "What do bison still remain?",
+   "context_prefix": "The American bison is a large bovid which inhabited much of western North Americ",
+   "gold": "near-threatened",
+   "score": 19.986080169677734,
+   "pred": "near - threatened"
+  },
+  {
+   "question": "What are the other levels classified by?",
+   "context_prefix": "There are generally four recognized levels of tests: unit testing, integration t",
+   "gold": "the testing objective",
+   "score": 19.982152938842773,
+   "pred": "testing objective"
+  },
+  {
+   "question": "How many troops made it back to the KPA lines after retreating?",
+   "context_prefix": "On 25 September, Seoul was recaptured by South Korean forces. American air raids",
+   "gold": "25,000 to 30,000",
+   "score": 19.97237777709961,
+   "pred": "25, 000 to 30, 000"
+  },
+  {
+   "question": "In Shia tariqah, what are the Twelvers commonly known as?",
+   "context_prefix": "The Shia tariqah with a majority of adherents are the Twelvers who are commonly ",
+   "gold": "the \"shia\"",
+   "score": 19.95690155029297,
+   "pred": "the \" shia"
+  },
+  {
+   "question": "What was the population of Nanjing in 2010?",
+   "context_prefix": "According to the Sixth China Census, the total population of the City of Nanjing",
+   "gold": "8.005 million",
+   "score": 19.950231552124023,
+   "pred": "8. 005 million"
+  },
+  {
+   "question": "What can be used to cancel a inductibe reactance or residual capacitative?",
+   "context_prefix": "Antenna tuning generally refers to cancellation of any reactance seen at the ant",
+   "gold": "parallel capacitance",
+   "score": 19.936349868774414,
+   "pred": "addition of a series inductance or parallel capacitance"
+  },
+  {
+   "question": "What combines \"grain radical\" with the \"mouth radical\"?",
+   "context_prefix": "Modified radicals and new variants are two common reasons for the ever-increasin",
+   "gold": "\"harmony, peace\"",
+   "score": 19.934972763061523,
+   "pred": "he 和 \" harmony, peace"
+  },
+  {
+   "question": "What does an OTG device default to with no plug inserted?",
+   "context_prefix": "The OTG device with the A-plug inserted is called the A-device and is responsibl",
+   "gold": "to acting as a b-device",
+   "score": 19.933387756347656,
+   "pred": "acting as a b - device"
+  },
+  {
+   "question": "How much land did the Congolese government agree to lease to South Africans in 2009?",
+   "context_prefix": "The Republic of the Congo also has large untapped base metal, gold, iron and pho",
+   "gold": "200,000 hectares",
+   "score": 19.93198013305664,
+   "pred": "200, 000 hectares"
+  },
+  {
+   "question": "What does the superscript m represent?",
+   "context_prefix": "Several dozen radioisotopes have been characterized. 65Zn, which has a half-life",
+   "gold": "metastable isotope",
+   "score": 19.929534912109375,
+   "pred": "a metastable isotope"
+  },
+  {
+   "question": "Which organization sharply rebuked Hopkins' comments?",
+   "context_prefix": "On 17 April 2015, The Sun's columnist Katie Hopkins called migrants to Britain \"",
+   "gold": "the united nations high commission for human rights",
+   "score": 19.913076400756836,
+   "pred": "united nations high commission for human rights"
+  },
+  {
+   "question": "What network is used to contact concierge and emergency assitance services as well as getting navigational and entetainment information?",
+   "context_prefix": "If access is gained to a car's internal controller area network, it is possible ",
+   "gold": "the cell phone network",
+   "score": 19.90982437133789,
+   "pred": "cell phone network"
+  },
+  {
+   "question": "How many members of ethnic minorities are there?",
+   "context_prefix": "Han Chinese make up the vast majority of the population, and the largest Han sub",
+   "gold": "400,000",
+   "score": 19.906829833984375,
+   "pred": "400, 000"
+  },
+  {
+   "question": "Where is the Papalote Children's Museum located?",
+   "context_prefix": "The Papalote children's museum, which houses the world's largest dome screen, is",
+   "gold": "wooded park of chapultepec",
+   "score": 19.903779983520508,
+   "pred": "chapultepec"
+  },
+  {
+   "question": "What was his \"secret\" title after World War II?",
+   "context_prefix": "The German rocket center in Peenemünde was located in the eastern part of German",
+   "gold": "the chief designer",
+   "score": 19.903324127197266,
+   "pred": ""
+  },
+  {
+   "question": "Along with the Nicene Creed, which other Christian creed asserts the Virgin birth of Jesus?",
+   "context_prefix": "The Virgin birth of Jesus was an almost universally held belief among Christians",
+   "gold": "the apostles' creed",
+   "score": 19.892377853393555,
+   "pred": "apostles ' creed"
+  },
+  {
+   "question": "How much was invested in housing in the Bronx in 2002-2007?",
+   "context_prefix": "In 1997, the Bronx was designated an All America City by the National Civic Leag",
+   "gold": "$4.8 billion",
+   "score": 19.870182037353516,
+   "pred": "$ 4. 8 billion"
+  },
+  {
+   "question": "How much was Kanye's bail bond?",
+   "context_prefix": "On September 11, 2008, West and his road manager/bodyguard Don \"Don C.\" Crowley ",
+   "gold": "$20,000",
+   "score": 19.8619327545166,
+   "pred": "$ 20, 000"
+  },
+  {
+   "question": "What will a motor do if the load is reduced?",
+   "context_prefix": "When used with a load that has a torque curve that increases with speed, the mot",
+   "gold": "speed up",
+   "score": 19.861507415771484,
+   "pred": ""
+  },
+  {
+   "question": "At the time change to DST, what will a digital clock read just after 01:59:59.9?",
+   "context_prefix": "In the case of the United States where a one-hour shift occurs at 02:00 local ti",
+   "gold": "03:00:00.0",
+   "score": 19.860944747924805,
+   "pred": "03 : 00 : 00. 0"
+  },
+  {
+   "question": "What type of seabird has the longest period of parental care?",
+   "context_prefix": "The length and nature of parental care varies widely amongst different orders an",
+   "gold": "frigatebird",
+   "score": 19.860496520996094,
+   "pred": "great frigatebird"
+  },
+  {
+   "question": "What script evolved from the Gupta script?",
+   "context_prefix": "Brahmi evolved into a multiplicity of Brahmic scripts, many of which were used t",
+   "gold": "śāradā",
+   "score": 19.86031723022461,
+   "pred": "sarada"
+  },
+  {
+   "question": "How many died trying to defend the province in Kaliningrad?",
+   "context_prefix": "The Kingdom of Prussia became the leading state of the German Empire after its c",
+   "gold": "300,000",
+   "score": 19.85506248474121,
+   "pred": "300, 000"
+  },
+  {
+   "question": "What was the original price for a replacement battery from Apple?",
+   "context_prefix": "Apple announced a battery replacement program on November 14, 2003, a week befor",
+   "gold": "$99",
+   "score": 19.853384017944336,
+   "pred": "us $ 99"
+  },
+  {
+   "question": "What did Mikhail Gorbachev introduce?",
+   "context_prefix": "The Cold War drew to a close in the late 1980s and the early 1990s. The United S",
+   "gold": "introduced the perestroika and glasnost reforms.",
+   "score": 19.853239059448242,
+   "pred": "perestroika and glasnost reforms"
+  },
+  {
+   "question": "Bharatpur is an example of what kind of state?",
+   "context_prefix": "Modern Rajasthan includes most of Rajputana, which comprises the erstwhile ninet",
+   "gold": "princely",
+   "score": 19.851112365722656,
+   "pred": "jat princely states"
+  },
+  {
+   "question": "What is San Diego's cable penetration rate?",
+   "context_prefix": "San Diego's first television station was KFMB, which began broadcasting on May 1",
+   "gold": "80.6 percent",
+   "score": 19.84646987915039,
+   "pred": "80. 6 percent"
+  },
+  {
+   "question": "What cultural group has dominated the PLP?",
+   "context_prefix": "The PLP, the party in government when the decision to join CARICOM was made, has",
+   "gold": "west indians and their descendants.",
+   "score": 19.846080780029297,
+   "pred": "west indians"
+  },
+  {
+   "question": "What is the light rail system in Hyderabad known as?",
+   "context_prefix": "The most commonly used forms of medium distance transport in Hyderabad include g",
+   "gold": "multi-modal transport system (mmts)",
+   "score": 19.843828201293945,
+   "pred": "multi - modal transport system"
+  },
+  {
+   "question": "who released the track \"little fluffy clouds\"?",
+   "context_prefix": "In Britain, further experiments in the genre boosted its appeal. House and rave ",
+   "gold": "orb",
+   "score": 19.842512130737305,
+   "pred": "the orb"
+  },
+  {
+   "question": "What was the name of a high profile terrorist group in Egypt in 1990s?",
+   "context_prefix": "In the 1980s, 1990s, and 2000s, terrorist attacks in Egypt became numerous and s",
+   "gold": "al-gama'a al-islamiyya",
+   "score": 19.841415405273438,
+   "pred": "al - gama ' a al - islamiyya"
+  },
+  {
+   "question": "What two lesser traits do great powers usually possess?",
+   "context_prefix": "A great power is a sovereign state that is recognized as having the ability and ",
+   "gold": "diplomatic and soft power influence",
+   "score": 19.83721160888672,
+   "pred": "military and economic strength, as well as diplomatic and soft power influence"
+  },
+  {
+   "question": "How many adult speakers speak Alsatian according the 1999 INSEE survey?",
+   "context_prefix": "The constitution of the Fifth Republic states that French alone is the official ",
+   "gold": "548,000",
+   "score": 19.834827423095703,
+   "pred": "548, 000"
+  },
+  {
+   "question": "What is the amount of magnitude possible on the Cascadia subduction zone?",
+   "context_prefix": "Due to its location in the Pacific Ring of Fire, Seattle is in a major earthquak",
+   "gold": "9.0 or greater",
+   "score": 19.832849502563477,
+   "pred": "9. 0 or greater"
+  },
+  {
+   "question": "What breed was Laika?",
+   "context_prefix": "Dogs have lived and worked with humans in so many roles that they have earned th",
+   "gold": "husky-terrier mix",
+   "score": 19.829254150390625,
+   "pred": "husky - terrier"
+  },
+  {
+   "question": "What happened to the income gap between the rich and the poor?",
+   "context_prefix": "Over the course of the 20th century, the world's per-capita gross domestic produ",
+   "gold": "the gulf between the world's rich and poor grew wider",
+   "score": 19.825939178466797,
+   "pred": "grew wider"
+  },
+  {
+   "question": "According to a survey by the Kaiser Family Foundation, what percentage of parents want schools to discuss contraception with their children?",
+   "context_prefix": "In contemporary society, adolescents also face some risks as their sexuality beg",
+   "gold": "eighty-one percent",
+   "score": 19.821762084960938,
+   "pred": "eighty - one percent"
+  },
+  {
+   "question": "What sign of TB infection would a lab be looking for in a sputum culture?",
+   "context_prefix": "Diagnosing active tuberculosis based only on signs and symptoms is difficult, as",
+   "gold": "acid-fast bacilli",
+   "score": 19.818286895751953,
+   "pred": "acid - fast bacilli"
+  },
+  {
+   "question": "According to Credit Suisse, what percentage of residents own their homes?",
+   "context_prefix": "Switzerland has an overwhelmingly private sector economy and low tax rates by We",
+   "gold": "about 37%",
+   "score": 19.816471099853516,
+   "pred": "37 %"
+  },
+  {
+   "question": "What was the name of the event the athletic program was involved with prior to the Mountain West Conference?",
+   "context_prefix": "Bateman was responsible for the building of 36 new buildings for the university ",
+   "gold": "the western athletic conference",
+   "score": 19.813777923583984,
+   "pred": "western athletic conference"
+  },
+  {
+   "question": "What type of treaty cannot be acted on without the proper change in domestic law?",
+   "context_prefix": "The division between the two is often not clear and is often politicized in disa",
+   "gold": "a non-self-executing treaty",
+   "score": 19.808988571166992,
+   "pred": "non - self - executing"
+  },
+  {
+   "question": "Since 1990, how much did Madonna make in her concerts?",
+   "context_prefix": "Having sold more than 300 million records worldwide, Madonna is recognized as th",
+   "gold": "$1.31 billion",
+   "score": 19.805679321289062,
+   "pred": "us $ 1. 31 billion"
+  },
+  {
+   "question": "T3 felt Sony was saying goodbye to past models in preparation for what next-generation console?",
+   "context_prefix": "Technology magazine T3 gave the Super Slim model a positive review, stating the ",
+   "gold": "the ps4",
+   "score": 19.803401947021484,
+   "pred": "ps4"
+  },
+  {
+   "question": "What is a notable stone wall built in ancient Somalia?",
+   "context_prefix": "In ancient Somalia, pyramidical structures known in Somali as taalo were a popul",
+   "gold": "the wargaade wall",
+   "score": 19.79893684387207,
+   "pred": "wargaade wall"
+  },
+  {
+   "question": "How many of the world's tankers do Greek companies own?",
+   "context_prefix": "In terms of ship categories, Greek companies have 22.6% of the world's tankers a",
+   "gold": "22.6%",
+   "score": 19.79588508605957,
+   "pred": "22. 6 %"
+  },
+  {
+   "question": "What region produced several writing systems independent of other areas of the world?",
+   "context_prefix": "The development of writing is counted among the many achievements and innovation",
+   "gold": "the mesoamerican region",
+   "score": 19.791574478149414,
+   "pred": "mesoamerican"
+  },
+  {
+   "question": "What was the first country to make Christianity its official religion?",
+   "context_prefix": "The Arsacid Kingdom of Armenia, itself a branch of the Arsacid dynasty of Parthi",
+   "gold": "the arsacid kingdom of armenia",
+   "score": 19.785219192504883,
+   "pred": "arsacid kingdom of armenia"
+  },
+  {
+   "question": "What hinders schooling for child labourers?",
+   "context_prefix": "While full-time work hinders schooling, empirical evidence is varied on the rela",
+   "gold": "full-time work",
+   "score": 19.778194427490234,
+   "pred": "full - time work"
+  },
+  {
+   "question": "How high does Galicia's mountain ranges rise?",
+   "context_prefix": "The interior of Galicia is characterized by its hilly landscape, although mounta",
+   "gold": "2,000 m (6,600 ft)",
+   "score": 19.775894165039062,
+   "pred": "2, 000 m ( 6, 600 ft )"
+  },
+  {
+   "question": "Where did the torch route end in Saint Petersburg?",
+   "context_prefix": "\n Russia: On April 5 the Olympic torch arrived at Saint Petersburg, Russia. The ",
+   "gold": "palace square",
+   "score": 19.771841049194336,
+   "pred": "victory square and finish at the palace square"
+  },
+  {
+   "question": "Who was Li Zicheng?",
+   "context_prefix": "Ming government officials fought against each other, against fiscal collapse, an",
+   "gold": "former minor ming official",
+   "score": 19.770551681518555,
+   "pred": "a former minor ming official"
+  },
+  {
+   "question": "What do the mas bands eventually converge on?",
+   "context_prefix": "Carnival Tuesday hosts the main events. Full costume is worn, complete with make",
+   "gold": "the queen's park savannah",
+   "score": 19.767959594726562,
+   "pred": "queen ' s park savannah"
+  },
+  {
+   "question": "How big is the sovereign territory of Israel?",
+   "context_prefix": "The sovereign territory of Israel (according to the demarcation lines of the 194",
+   "gold": "20,770 square kilometers",
+   "score": 19.764419555664062,
+   "pred": "20, 770 square kilometers"
+  },
+  {
+   "question": "What US Department oversees the World's largest administrative judicial system?",
+   "context_prefix": "The U.S. Social Security Administration (SSA), which oversees the world's larges",
+   "gold": "social security administration (ssa)",
+   "score": 19.763893127441406,
+   "pred": "u. s. social security administration"
+  },
+  {
+   "question": "It has been argued that what did not keep up with financial innovation?",
+   "context_prefix": "Critics such as economist Paul Krugman and U.S. Treasury Secretary Timothy Geith",
+   "gold": "regulatory framework",
+   "score": 19.760906219482422,
+   "pred": "the regulatory framework"
+  },
+  {
+   "question": "What is the Franco-Prussian War also known as?",
+   "context_prefix": "The Franco-Prussian War or Franco-German War (German: Deutsch-Französischer Krie",
+   "gold": "franco-german war",
+   "score": 19.757596969604492,
+   "pred": "franco - german war"
+  },
+  {
+   "question": "The 3:2 Pulldown techniques gives what total time for two frames?",
+   "context_prefix": "Standard 35mm photographic film used for cinema projection has a much higher ima",
+   "gold": "1/12 of a second",
+   "score": 19.754512786865234,
+   "pred": "1 / 12 of a second"
+  },
+  {
+   "question": "what model of university structure was being used throughout the world at the finish of the 19th century?",
+   "context_prefix": "Until the 19th century, religion played a significant role in university curricu",
+   "gold": "the german university model",
+   "score": 19.751567840576172,
+   "pred": "german university model"
+  },
+  {
+   "question": "What institute is located near the Oklahoma City National Memorial?",
+   "context_prefix": "The Oklahoma City National Memorial in the northern part of Oklahoma City's down",
+   "gold": "institute for the prevention of terrorism",
+   "score": 19.748306274414062,
+   "pred": "national memorial institute for the prevention of terrorism"
+  },
+  {
+   "question": "How many participants are int he Parade of the Marksmen?",
+   "context_prefix": "But Hanover is not only one of the most important Exhibition Cities in the world",
+   "gold": "12.000",
+   "score": 19.745595932006836,
+   "pred": "12. 000"
+  },
+  {
+   "question": "What Nigerian community has the worst unsustainable waste management?",
+   "context_prefix": "Waste management including sewage treatment, the linked processes of deforestati",
+   "gold": "kubwa community",
+   "score": 19.742698669433594,
+   "pred": "kubwa"
+  },
+  {
+   "question": "What did Pinnacle Entertainment intend to replace the Sands Atlantic City with?",
+   "context_prefix": "Owing to economic conditions and the late 2000s recession, many of the proposed ",
+   "gold": "$1.5-2 billion casino resort",
+   "score": 19.742504119873047,
+   "pred": "a $ 1. 5 - 2 billion casino resort"
+  },
+  {
+   "question": "What notable federal government buildings were designed in the neoclassical style?",
+   "context_prefix": "Architectural classicism is heavily represented in all districts of the city, pa",
+   "gold": "white house and the capitol",
+   "score": 19.74217414855957,
+   "pred": "the white house and the capitol"
+  },
+  {
+   "question": "What story was written by Child in 1842?",
+   "context_prefix": "The figure of the \"tragic octoroon\" was a stock character of abolitionist litera",
+   "gold": "\"the quadroons\"",
+   "score": 19.739238739013672,
+   "pred": "the quadroons"
+  },
+  {
+   "question": "Who do specialists believe can feel pain?",
+   "context_prefix": "The presence of pain in an animal cannot be known for certain, but it can be inf",
+   "gold": "vertebrates",
+   "score": 19.737125396728516,
+   "pred": "all vertebrates"
+  },
+  {
+   "question": "What percent of the Chilean population were indigenous according to the 2002 census?",
+   "context_prefix": "According to the 2002 Census, 4.6% of the Chilean population, including the Rapa",
+   "gold": "4.6%",
+   "score": 19.73489761352539,
+   "pred": "4. 6 %"
+  },
+  {
+   "question": "What could have affected Medieval Europe's embracing of the pointed arch?",
+   "context_prefix": "Increasing military and cultural contacts with the Muslim world, including the N",
+   "gold": "cultural contacts with the muslim world",
+   "score": 19.731552124023438,
+   "pred": "increasing military and cultural contacts with the muslim world"
+  },
+  {
+   "question": "Why would one judge reject another's opinion?",
+   "context_prefix": "As federal judge Alex Kozinski has pointed out, binding precedent as we know it ",
+   "gold": "incorrect statement of the law",
+   "score": 19.73092269897461,
+   "pred": "an incorrect statement of the law"
+  },
+  {
+   "question": "Who initially had military command?",
+   "context_prefix": "The responsibility for military command remained with the British Crown-in-Counc",
+   "gold": "the british crown-in-council",
+   "score": 19.73072624206543,
+   "pred": "the british crown - in - council"
+  },
+  {
+   "question": "What allowed for a parity bit for error chicking if needed?",
+   "context_prefix": "The committee considered an eight-bit code, since eight bits (octets) would allo",
+   "gold": "perforated tape at the time could record eight bits in one position",
+   "score": 19.72826385498047,
+   "pred": "perforated tape"
+  },
+  {
+   "question": "Which two Queen songs were written with audience participation in mind?",
+   "context_prefix": "Queen composed music that drew inspiration from many different genres of music, ",
+   "gold": "\"we will rock you\" and \"we are the champions\"",
+   "score": 19.723241806030273,
+   "pred": "\" we will rock you \" and \" we are the champions \""
+  },
+  {
+   "question": "What was the purpose to be discovered by state sanctioned diviners?",
+   "context_prefix": "In the everyday world, many individuals sought to divine the future, influence i",
+   "gold": "will of the gods",
+   "score": 19.721567153930664,
+   "pred": "ascertaining the will of the gods"
+  },
+  {
+   "question": "Which student said Chopin made sure his students knew his legato, cantabile style of playing?",
+   "context_prefix": "Friederike Müller, a pupil of Chopin, wrote: \"[His] playing was always noble and",
+   "gold": "friederike müller",
+   "score": 19.720439910888672,
+   "pred": "friederike muller"
+  },
+  {
+   "question": "Sri Lankan law mixes what two categories of jurisprudence?",
+   "context_prefix": "In Sri Lanka, the Supreme Court of Sri Lanka was created in 1972 after the adopt",
+   "gold": "common-law and civil-law",
+   "score": 19.718868255615234,
+   "pred": "common - law and civil - law"
+  },
+  {
+   "question": "How many fans saw Queen in Knebworth park?",
+   "context_prefix": "In summer of 1986, Queen went on their final tour with Freddie Mercury. A sold-o",
+   "gold": "120,000",
+   "score": 19.717256546020508,
+   "pred": "120, 000"
+  },
+  {
+   "question": "Following what event was it uncertain if Shell would recommence drilling?",
+   "context_prefix": "It was unclear if Shell would recommence drilling in mid-2013, following the \"Ku",
+   "gold": "the \"kulluk\" incident",
+   "score": 19.709075927734375,
+   "pred": "the \" kulluk \" incident"
+  },
+  {
+   "question": "There was an ocean between Gondwana and Asia in the Permian, what was it?",
+   "context_prefix": "During the Permian all the Earth's major land masses, except portions of East As",
+   "gold": "paleo-tethys ocean",
+   "score": 19.688072204589844,
+   "pred": "paleo - tethys ocean"
+  },
+  {
+   "question": "What important figure was killed in the raid?",
+   "context_prefix": "Perhaps the most famous raid by Oeselian pirates occurred in 1187, with the atta",
+   "gold": "swedish archbishop johannes",
+   "score": 19.683277130126953,
+   "pred": "archbishop johannes"
+  },
+  {
+   "question": "Before the Enlightenment, most intellectual debates revoled around what subject?",
+   "context_prefix": "The debating societies discussed an extremely wide range of topics. Before the E",
+   "gold": "\"confessional\"",
+   "score": 19.671661376953125,
+   "pred": "confessional"
+  },
+  {
+   "question": "Daft Punk, Stardust, Cassius, St. Germain, and DJ Falcon all came from what scene?",
+   "context_prefix": "Towards the end of the 1990s and into the 2000s, producers such as Daft Punk, St",
+   "gold": "paris's house scene",
+   "score": 19.667278289794922,
+   "pred": "paris ' s house scene"
+  },
+  {
+   "question": "Other than the Roman Catholics, who else uses Latin?",
+   "context_prefix": "Slavic standard languages which are official in at least one country: Belarusian",
+   "gold": "the bosniaks",
+   "score": 19.65387535095215,
+   "pred": "bosniaks"
+  },
+  {
+   "question": "Levels of the Eu 19 (R1a) chromosome were seen in what percentage of the Ashkenazi Jewish population?",
+   "context_prefix": "A 2001 study by Nebel et al. showed that both Ashkenazi and Sephardic Jewish pop",
+   "gold": "12.7%",
+   "score": 19.651447296142578,
+   "pred": "12. 7 %"
+  },
+  {
+   "question": "What are they calibrating via test flights at the airport?",
+   "context_prefix": "The first aircraft, a South African Beechcraft King Air 200, landed at the new a",
+   "gold": "the airport's radio navigation equipment.",
+   "score": 19.648208618164062,
+   "pred": "radio navigation equipment"
+  },
+  {
+   "question": "In 2014, what did the census estimate the population of New York City to be?",
+   "context_prefix": "Situated on one of the world's largest natural harbors, New York City consists o",
+   "gold": "8,491,079",
+   "score": 19.6287841796875,
+   "pred": "8, 491, 079"
+  },
+  {
+   "question": "What was Comcast's profit margin in 2009?",
+   "context_prefix": "The book value of the company nearly doubled from $8.19 a share in 1999 to $15 a",
+   "gold": "8.4%",
+   "score": 19.61371612548828,
+   "pred": "8. 4 %"
+  },
+  {
+   "question": "What rating did Ars Technica initially give PlayStation 3?",
+   "context_prefix": "Critical and commercial reception to PS3 improved over time, after a series of p",
+   "gold": "6/10",
+   "score": 19.602497100830078,
+   "pred": "6 / 10"
+  },
+  {
+   "question": "What does climate produce in hunter-gatherer societies?",
+   "context_prefix": "Hunter-gatherer societies manifest significant variability, depending on climate",
+   "gold": "variability",
+   "score": 19.59224510192871,
+   "pred": "significant variability"
+  },
+  {
+   "question": "When was the AEA founded?",
+   "context_prefix": "Bell was a supporter of aerospace engineering research through the Aerial Experi",
+   "gold": "1907",
+   "score": 19.590465545654297,
+   "pred": "october 1907"
+  },
+  {
+   "question": "What is the purpose of the Compass-M1 satellite?",
+   "context_prefix": "Compass-M1 is an experimental satellite launched for signal testing and validati",
+   "gold": "for signal testing and validation and for the frequency filing",
+   "score": 19.576087951660156,
+   "pred": "signal testing and validation"
+  },
+  {
+   "question": "When verse was the third mention?",
+   "context_prefix": "The first recorded use of the term (or its cognates in other languages) is in th",
+   "gold": "peter 4:16",
+   "score": 19.574445724487305,
+   "pred": "1 peter 4 : 16"
+  },
+  {
+   "question": "By functioning within a single, what is the system?",
+   "context_prefix": "It is now known that the molecular circadian clock can function within a single ",
+   "gold": "cell-autonomous",
+   "score": 19.572765350341797,
+   "pred": "cell - autonomous"
+  },
+  {
+   "question": "How many refugees fled Russia to the Ottoman Empire from 1783 to 1913?",
+   "context_prefix": "Economic and political migrations made an impact across the empire. For example,",
+   "gold": "3.8 million",
+   "score": 19.561511993408203,
+   "pred": "3. 8 million"
+  },
+  {
+   "question": "How many people signed a petition in protest of Everton FC's crest redesign in 2013?",
+   "context_prefix": "In May 2013, the club launched a new crest to improve the reproducibility of the",
+   "gold": "over 22,000",
+   "score": 19.552722930908203,
+   "pred": "22, 000"
+  },
+  {
+   "question": "What group of people may apply to join the FBI after age 37?",
+   "context_prefix": "The FBI is near-impenetrable, with applicants intensely scrutinized and assessed",
+   "gold": "preference-eligible veterans",
+   "score": 19.547252655029297,
+   "pred": "preference - eligible veterans"
+  },
+  {
+   "question": "How many words did Chaser know?",
+   "context_prefix": "Dog intelligence is the ability of the dog to perceive information and retain it",
+   "gold": "over 1,000",
+   "score": 19.545934677124023,
+   "pred": "1, 000"
+  },
+  {
+   "question": "How many hours of sunshine does New York receive every year?",
+   "context_prefix": "Under the Köppen climate classification, using the 0 °C (32 °F) coldest month (J",
+   "gold": "2,535",
+   "score": 19.54282569885254,
+   "pred": "2, 535"
+  },
+  {
+   "question": "What is the technique that involves imaging with terahertz radiation?",
+   "context_prefix": "In infrared photography, infrared filters are used to capture the near-infrared ",
+   "gold": "'t-ray' imaging",
+   "score": 19.53778839111328,
+   "pred": "t - ray ' imaging"
+  },
+  {
+   "question": "What is chattista?",
+   "context_prefix": "The traditional folk music of Cyprus has several common elements with Greek, Tur",
+   "gold": "form of musical poetry",
+   "score": 19.537559509277344,
+   "pred": "musical poetry"
+  },
+  {
+   "question": "Why was Prince Hall Freemasonry formed?",
+   "context_prefix": "Prince Hall Freemasonry exists because of the refusal of early American lodges t",
+   "gold": "refusal of early american lodges to admit african-americans",
+   "score": 19.523534774780273,
+   "pred": "refusal of early american lodges to admit african - americans"
+  },
+  {
+   "question": "Where was an experimental 6kV DC railway built?",
+   "context_prefix": "There has, however, been interest among railroad operators in returning to DC us",
+   "gold": "the soviet union",
+   "score": 19.52280044555664,
+   "pred": "soviet union"
+  },
+  {
+   "question": "After the 3rd century BC, what style of literature grew in northern area of the subcontinent?",
+   "context_prefix": "Most of the subcontinent was conquered by the Maurya Empire during the 4th and 3",
+   "gold": "prakrit and pali",
+   "score": 19.522367477416992,
+   "pred": "prakrit"
+  },
+  {
+   "question": "What can the disrupted circadian system cause?",
+   "context_prefix": "Studies conducted on both animals and humans show major bidirectional relationsh",
+   "gold": "abuse and relapse",
+   "score": 19.519697189331055,
+   "pred": "increase the risk for substance abuse and relapse"
+  },
+  {
+   "question": "Which office of the United Nations is in charge of applying its official legal procedures?",
+   "context_prefix": "After their adoption, treaties as well as their amendments have to follow the of",
+   "gold": "the office of legal affairs",
+   "score": 19.514942169189453,
+   "pred": "office of legal affairs"
+  },
+  {
+   "question": "When did youtube launch the version of \"shows\" for the UK?",
+   "context_prefix": "YouTube entered into a marketing and advertising partnership with NBC in June 20",
+   "gold": "in november 2009",
+   "score": 19.512409210205078,
+   "pred": "november 2009"
+  },
+  {
+   "question": "What town plan was chosen with the chief consideration of displaying British power and superiority?",
+   "context_prefix": "The New Delhi town plan, like its architecture, was chosen with one single chief",
+   "gold": "the new delhi town plan",
+   "score": 19.510560989379883,
+   "pred": "new delhi town plan"
+  },
+  {
+   "question": "In who's book did von Neuman find errors in the author's equations?",
+   "context_prefix": "Von Neumann's famous 9-page paper started life as a talk at Princeton and then b",
+   "gold": "léon walras",
+   "score": 19.509498596191406,
+   "pred": "leon walras"
+  },
+  {
+   "question": "According to the Encyclopedia Britannica, what is the total area of the US in miles?",
+   "context_prefix": "From 1989 through 1996, the total area of the US was listed as 9,372,610 km2 (3,",
+   "gold": "3,676,486 sq mi",
+   "score": 19.50870132446289,
+   "pred": "3, 676, 486 sq mi"
+  },
+  {
+   "question": "What percent of Zhejiang was Protestant in 1999?",
+   "context_prefix": "Catholicism arrived 400 years ago in the province and Protestantism 150 years ag",
+   "gold": "2.8%",
+   "score": 19.49863052368164,
+   "pred": "2. 8 %"
+  },
+  {
+   "question": "What is the average snowfall per year in the City of Boston?",
+   "context_prefix": "Boston's coastal location on the North Atlantic moderates its temperature, but m",
+   "gold": "43.8 inches",
+   "score": 19.497867584228516,
+   "pred": "43. 8 inches"
+  },
+  {
+   "question": "What slowed down the growth of solar energy?",
+   "context_prefix": "Shuman built the world’s first solar thermal power station in Maadi, Egypt, betw",
+   "gold": "the outbreak of world war i and the discovery of cheap oil",
+   "score": 19.49301528930664,
+   "pred": "world war i and the discovery of cheap oil"
+  },
+  {
+   "question": "Richard Dales believes that the work of Aristotle represents the turning point of what?",
+   "context_prefix": "The rediscovery of Aristotle's works–more than 3000 pages of it would eventually",
+   "gold": "western thought",
+   "score": 19.485637664794922,
+   "pred": "the history of western thought"
+  },
+  {
+   "question": "What was the name of the first Universal-Pioneer player?",
+   "context_prefix": "Pioneer Electronics also entered the optical disc market in 1977 as a 50/50 join",
+   "gold": "the vp-1000",
+   "score": 19.48476791381836,
+   "pred": "vp - 1000"
+  },
+  {
+   "question": "Who rated BYU as the #1 stone cold sober school in the nation for several years?",
+   "context_prefix": "Many visitors to BYU, and Utah Valley as a whole, report being surprised by the ",
+   "gold": "the princeton review",
+   "score": 19.483436584472656,
+   "pred": "princeton review"
+  },
+  {
+   "question": "What is an important Old English religious poem?",
+   "context_prefix": "Some of the most important surviving works of Old English literature are Beowulf",
+   "gold": "cædmon's hymn",
+   "score": 19.480701446533203,
+   "pred": "cædmon ' s hymn"
+  },
+  {
+   "question": "Approximately what percentage is New York City's population of the entire state's population?",
+   "context_prefix": "New York City is the most-populous city in the United States, with an estimated ",
+   "gold": "40%",
+   "score": 19.469345092773438,
+   "pred": "40 %"
+  },
+  {
+   "question": "What percent of coursework is done at the business school by undergraduate students at Washington University?",
+   "context_prefix": "Undergraduate BSBA students take 40–60% of their courses within the business sch",
+   "gold": "40-60%",
+   "score": 19.468196868896484,
+   "pred": "40 - 60 %"
+  },
+  {
+   "question": "Art and music were some of these forms of  cultural related to what type of living?",
+   "context_prefix": "In practice, culture referred to an élite ideal and was associated with such act",
+   "gold": "urban life",
+   "score": 19.46788215637207,
+   "pred": "urban"
+  },
+  {
+   "question": "The Roman Karamagara Bridge is an example of what type of structure?",
+   "context_prefix": "The pointed arch, one of the defining attributes of Gothic, was earlier incorpor",
+   "gold": "secular structures",
+   "score": 19.464290618896484,
+   "pred": "secular"
+  },
+  {
+   "question": "What was the confraternity called after its separation from the hospital?",
+   "context_prefix": "In 1409, a hospital was founded and placed under the patronage of Santa María de",
+   "gold": "cofradia para el ámparo de los desamparados",
+   "score": 19.460046768188477,
+   "pred": "cofradia para el amparo de los desamparados"
+  },
+  {
+   "question": "What is the other newspaper that serves Houston?",
+   "context_prefix": "Houston is served by the Houston Chronicle, its only major daily newspaper with ",
+   "gold": "houston press",
+   "score": 19.45145034790039,
+   "pred": "the houston press"
+  },
+  {
+   "question": "What's the largest desalination plant in the world?",
+   "context_prefix": "Israel is one of the world's technological leaders in water technology. In 2011,",
+   "gold": "the ashkelon seawater reverse osmosis",
+   "score": 19.44947052001953,
+   "pred": "ashkelon seawater reverse osmosis"
+  },
+  {
+   "question": "What percentage of Americans supported legal hunting in 2006?",
+   "context_prefix": "Hunting in the United States is not associated with any particular class or cult",
+   "gold": "seventy-eight percent",
+   "score": 19.443878173828125,
+   "pred": "seventy - eight percent"
+  },
+  {
+   "question": "What is the Sanskrit form of Nibbana?",
+   "context_prefix": "Although \"Nibbāna\" (Sanskrit: Nirvāna) is the common term for the desired goal o",
+   "gold": "nirvāna",
+   "score": 19.4426326751709,
+   "pred": "nirvana"
+  },
+  {
+   "question": "When did the American War of Independence turn into a global conflict?",
+   "context_prefix": "The war had also brought to an end the \"Old System\" of alliances in Europe, In t",
+   "gold": "1778-83",
+   "score": 19.438642501831055,
+   "pred": "1778 - 83"
+  },
+  {
+   "question": "What popular group performed at the Paris Exposition?",
+   "context_prefix": "Beginning with the Paris Exposition of 1878, the instrument's popularity rebound",
+   "gold": "estudiantes españoles (spanish students)",
+   "score": 19.43594741821289,
+   "pred": "estudiantes espanoles ( spanish students )"
+  },
+  {
+   "question": "How fast can Ultra Speed CDs write?",
+   "context_prefix": "Due to technical limitations, the original ReWritable CD could be written no fas",
+   "gold": "16x to 24x",
+   "score": 19.434581756591797,
+   "pred": "32x"
+  },
+  {
+   "question": "What is varmint hunting an American phrase for?",
+   "context_prefix": "Varmint hunting is an American phrase for the selective killing of non-game anim",
+   "gold": "selective killing of non-game animals seen as pests",
+   "score": 19.42420196533203,
+   "pred": "the selective killing of non - game animals seen as pests"
+  },
+  {
+   "question": "What section of the constitution was changed by Act 8 of 1925 to include Afrikaans with Dutch?",
+   "context_prefix": "European Dutch remained the literary language until the start of the 1920s, when",
+   "gold": "137",
+   "score": 19.423828125,
+   "pred": "section 137"
+  },
+  {
+   "question": "What company sponsors the Thanksgiving Day parade?",
+   "context_prefix": "Major tourist destinations include Times Square; Broadway theater productions; t",
+   "gold": "macy's",
+   "score": 19.423492431640625,
+   "pred": "macy ' s"
+  },
+  {
+   "question": "From what centuries are the earliest passwords and rituals of Freemasonry known?",
+   "context_prefix": "There is no clear mechanism by which these local trade organisations became toda",
+   "gold": "17th-18th",
+   "score": 19.4173641204834,
+   "pred": "17th - 18th centuries"
+  },
+  {
+   "question": "Why did Raskin leave the Apple team in 1981?",
+   "context_prefix": "Burrel's innovative design, which combined the low production cost of an Apple I",
+   "gold": "over a personality conflict with jobs",
+   "score": 19.416351318359375,
+   "pred": "a personality conflict with jobs"
+  },
+  {
+   "question": "What agency internationally regulates dioxins?",
+   "context_prefix": "Conventional bleaching of wood pulp using elemental chlorine produces and releas",
+   "gold": "the stockholm convention on persistent organic pollutants",
+   "score": 19.407209396362305,
+   "pred": "stockholm convention on persistent organic pollutants"
+  },
+  {
+   "question": "What percentage of the Tennessee population was African-American in 1900?",
+   "context_prefix": "During Reconstruction, freedmen and former free people of color were granted the",
+   "gold": "23.8",
+   "score": 19.405250549316406,
+   "pred": "23. 8"
+  },
+  {
+   "question": "In the book Fowle wrote, what is the entire region considered?",
+   "context_prefix": "The term \"Near and Middle East,\" held the stage for a few years before World War",
+   "gold": "\"the middle east.",
+   "score": 19.403179168701172,
+   "pred": "the middle east"
+  },
+  {
+   "question": "Where does the football team for North Carolina State University play?",
+   "context_prefix": "North Carolina State University is located in southwest Raleigh where the Wolfpa",
+   "gold": "carter-finley stadium",
+   "score": 19.40260887145996,
+   "pred": "carter - finley stadium"
+  },
+  {
+   "question": "Contemporary air defence systems are usually what?",
+   "context_prefix": "Most modern air defence systems are fairly mobile. Even the larger systems tend ",
+   "gold": "mobile",
+   "score": 19.402341842651367,
+   "pred": "fairly mobile"
+  },
+  {
+   "question": "What percentage of copper do the deposits have that are extracted?",
+   "context_prefix": "Most copper is mined or extracted as copper sulfides from large open pit mines i",
+   "gold": "0.4 to 1.0% copper",
+   "score": 19.384553909301758,
+   "pred": "0. 4 to 1. 0 %"
+  },
+  {
+   "question": "What year did color broadcasts start in the US?",
+   "context_prefix": "Colour broadcasts started at similarly higher resolutions, first with the US NTS",
+   "gold": "1953,",
+   "score": 19.383148193359375,
+   "pred": "1953"
+  },
+  {
+   "question": "What used composite video output?",
+   "context_prefix": "In December 1993, the Famicom received a similar redesign. It also loads cartrid",
+   "gold": "hvc-101",
+   "score": 19.3823299407959,
+   "pred": "hvc - 101"
+  },
+  {
+   "question": "How many independent labels did the Merlin Network represent?",
+   "context_prefix": "In May 2014, prior to the launch of YouTube's subscription-based Music Key servi",
+   "gold": "20,000",
+   "score": 19.37591552734375,
+   "pred": "over 20, 000"
+  },
+  {
+   "question": "What is the name of Bostons subway system?",
+   "context_prefix": "With nearly a third of Bostonians using public transit for their commute to work",
+   "gold": "mbta",
+   "score": 19.375797271728516,
+   "pred": "massachusetts bay transportation authority"
+  },
+  {
+   "question": "Why is lime often added to glass?",
+   "context_prefix": "Fused quartz is a glass made from chemically-pure SiO2 (silica). It has excellen",
+   "gold": "better chemical durability",
+   "score": 19.370895385742188,
+   "pred": "to provide for a better chemical durability"
+  },
+  {
+   "question": "What did many asset managers decide to do to the detriment of their clients?",
+   "context_prefix": "Moreover, a conflict of interest between professional investment managers and th",
+   "gold": "continue to invest client funds in over-priced (under-yielding) investments",
+   "score": 19.366107940673828,
+   "pred": "continue to invest client funds in over - priced ( under - yielding ) investments"
+  },
+  {
+   "question": "In 2009, what percent of the players were English in the Premier League?",
+   "context_prefix": "At the inception of the Premier League in 1992–93, just eleven players named in ",
+   "gold": "by 2009, under 40% of the players in the premier league were english.",
+   "score": 19.363262176513672,
+   "pred": "under 40 %"
+  },
+  {
+   "question": "What does RFC 2822 refers to what kind of control characters?",
+   "context_prefix": "For example, character 10 represents the \"line feed\" function (which causes a pr",
+   "gold": "control characters that do not include carriage return, line feed or white space as non-whitespace control characters",
+   "score": 19.362911224365234,
+   "pred": "control characters that do not include carriage return, line feed or white space as non - whitespace control characters"
+  },
+  {
+   "question": "When did Washington University begin to expand west?",
+   "context_prefix": "Washington University spent its first half century in downtown St. Louis bounded",
+   "gold": "the 1890s",
+   "score": 19.362064361572266,
+   "pred": "1890s"
+  },
+  {
+   "question": "What part of the body is controlled by nuclei in the midbrain?",
+   "context_prefix": "Motor systems are areas of the brain that are directly or indirectly involved in",
+   "gold": "the eye,",
+   "score": 19.357542037963867,
+   "pred": "the eye"
+  },
+  {
+   "question": "From where did the ideology of the Liberals stem?",
+   "context_prefix": "The Liberals' immediate predecessor was the United Australia Party (UAP). More b",
+   "gold": "anti-labor groupings in the first commonwealth parliaments",
+   "score": 19.3471736907959,
+   "pred": "anti - labor groupings"
+  },
+  {
+   "question": "What kind of a connection was rumored to exist between Victoria and John Brown?",
+   "context_prefix": "Through the 1860s, Victoria relied increasingly on a manservant from Scotland, J",
+   "gold": "a romantic connection",
+   "score": 19.34065055847168,
+   "pred": "romantic"
+  },
+  {
+   "question": "What technology was used to show that dogs respond to voices in the same brain parts as people?",
+   "context_prefix": "The latest study using magnetic resonance imaging (MRI) to humans and dogs toget",
+   "gold": "mri",
+   "score": 19.34033203125,
+   "pred": "magnetic resonance imaging ( mri"
+  },
+  {
+   "question": "What percent of the deaths during the war were civilians?",
+   "context_prefix": "It is possible that around 62 million people died in the war; estimates vary gre",
+   "gold": "about 60%",
+   "score": 19.33785057067871,
+   "pred": "60 %"
+  },
+  {
+   "question": "Who manufactured \"Elixir Sulfanilamide\"?",
+   "context_prefix": "In 1937 over 100 people died after ingesting \"Elixir Sulfanilamide\" manufactured",
+   "gold": "s.e. massengill company",
+   "score": 19.334688186645508,
+   "pred": "s. e. massengill company of tennessee"
+  },
+  {
+   "question": "To what word does the Anglo Saxon translate?",
+   "context_prefix": "The expression \"bitumen\" originated in the Sanskrit, where we find the words jat",
+   "gold": "mastix",
+   "score": 19.33397674560547,
+   "pred": "cwidu ( mastix"
+  },
+  {
+   "question": "What percentage of households use solar hot water systems in Israel and Cyprus?",
+   "context_prefix": "As of 2007, the total installed capacity of solar hot water systems is approxima",
+   "gold": "over 90%",
+   "score": 19.320226669311523,
+   "pred": "over 90 %"
+  },
+  {
+   "question": "What is the name of the Detroit museum of African American history?",
+   "context_prefix": "Many of the area's prominent museums are located in the historic cultural center",
+   "gold": "charles h. wright museum of african american history",
+   "score": 19.295503616333008,
+   "pred": ""
+  }
+ ]
+}
